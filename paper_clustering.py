@@ -36,13 +36,26 @@ class PaperClusterer:
     def load_data(self):
         """加载CSV数据"""
         print(f"Loading data from {self.csv_path}...")
-        self.df = pd.read_csv(self.csv_path)
+        # 尝试多种编码格式
+        encodings = ['utf-8', 'gbk', 'gb2312', 'gb18030', 'latin1']
+        for encoding in encodings:
+            try:
+                self.df = pd.read_csv(self.csv_path, encoding=encoding)
+                print(f"Successfully loaded with {encoding} encoding")
+                break
+            except UnicodeDecodeError:
+                continue
+        else:
+            raise ValueError(f"Could not read {self.csv_path} with any of these encodings: {encodings}")
+        
+        # 标准化列名（转为小写）
+        self.df.columns = self.df.columns.str.lower()
         
         # 检查必需的列
         required_cols = ['title', 'abstract']
         missing_cols = [col for col in required_cols if col not in self.df.columns]
         if missing_cols:
-            raise ValueError(f"Missing columns: {missing_cols}")
+            raise ValueError(f"Missing columns: {missing_cols}. Available columns: {list(self.df.columns)}")
         
         # 处理缺失值
         self.df['title'] = self.df['title'].fillna('')
