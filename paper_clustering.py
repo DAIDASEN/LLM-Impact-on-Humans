@@ -283,7 +283,22 @@ class PaperClusterer:
                 continue
             cluster_papers = self.df[self.df['cluster'] == cluster_id]
             cluster_file = output_dir / f'cluster_{cluster_id}.csv'
-            cluster_papers[['title', 'abstract']].to_csv(cluster_file, index=False)
+            
+            # 尝试保存更多有用的列，如果存在
+            cols_to_save = ['title', 'abstract', 'class', 'cluster']
+            # 过滤出实际存在的列
+            existing_cols = [col for col in cols_to_save if col in self.df.columns]
+            # 如果有其他列想保留，也可以直接保存所有列：
+            # cluster_papers.to_csv(cluster_file, index=False)
+            # 这里我们优先保存指定的列，如果class存在的话
+            
+            if 'class' in self.df.columns:
+                 # 如果有class列，优先展示
+                 other_cols = [c for c in self.df.columns if c not in ['title', 'abstract', 'class', 'cluster', 'combined_text']]
+                 final_cols = existing_cols + other_cols
+                 cluster_papers[final_cols].to_csv(cluster_file, index=False)
+            else:
+                 cluster_papers.to_csv(cluster_file, index=False)
         
         print(f"\nAll results saved to: {output_dir}")
         

@@ -9,7 +9,20 @@ def check_clusters():
         return
 
     try:
-        df_survey = pd.read_csv(survey_file)
+        # 尝试多种编码读取
+        encodings = ['utf-8', 'gbk', 'gb18030', 'latin1']
+        df_survey = None
+        for encoding in encodings:
+            try:
+                df_survey = pd.read_csv(survey_file, encoding=encoding)
+                print(f"成功使用 {encoding} 编码读取 Survey.csv")
+                break
+            except UnicodeDecodeError:
+                continue
+        
+        if df_survey is None:
+            raise ValueError("无法识别文件编码")
+
         # 假设 Survey.csv 中包含 'Title' 和 'Cluster' (或 'Class') 列
         # 这里做一些列名的自动适配
         title_col = 'Title' if 'Title' in df_survey.columns else df_survey.columns[0] # 默认第一列为Title
@@ -29,8 +42,8 @@ def check_clusters():
         print(f"读取 Survey.csv 出错: {e}")
         return
 
-    # 2. 遍历 cluster_i.csv 文件 (i=0, 1, 2)
-    for i in range(3):
+    # 2. 遍历 cluster_i.csv 文件 (支持更多聚类)
+    for i in range(4):  # 扩大范围以支持更多聚类
         file_name = f'cluster_{i}.csv'
         if os.path.exists(file_name):
             print(f"\n正在检查: {file_name} ...")
