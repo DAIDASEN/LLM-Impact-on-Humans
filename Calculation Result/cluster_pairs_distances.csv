@@ -1,0 +1,7 @@
+Cluster_Pair,Euclidean_Distance,Cosine_Distance,Cosine_Similarity
+Cluster 0 - Cluster 2,0.80279547,0.47824192,0.5217581
+Cluster 1 - Cluster 2,0.69557077,0.3821342,0.6178658
+Cluster 1 - Cluster 3,0.6764616,0.3859169,0.6140831
+Cluster 0 - Cluster 3,0.6758745,0.3579808,0.6420192
+Cluster 2 - Cluster 3,0.6488031,0.33127487,0.66872513
+Cluster 0 - Cluster 1,0.62240434,0.304093,0.695907
