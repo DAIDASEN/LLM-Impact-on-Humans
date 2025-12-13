@@ -1,46 +1,91 @@
 import time
 import random
+import requests
 import pandas as pd
 import numpy as np
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 
 # ==========================================
-# 1. 配置区域 (Configuration)
+# 1. 核心配置与文件路径
 # ==========================================
 
-# 文件路径 (请确保这些文件在当前目录下)
 EXISTING_CSV_PATH = 'papers_with_clusters.csv'
 EXISTING_EMBEDDINGS_PATH = 'embeddings.npy'
-OUTPUT_CSV_PATH = 'new_classified_papers.csv'
+OUTPUT_CSV_PATH = 'enhanced_experimental_papers.csv'
+MODEL_NAME = 'all-mpnet-base-v2' # 需与你生成 npy 时用的模型一致
+SIMILARITY_THRESHOLD = 0.35      # 低于此相似度则视为无关
 
-# Embedding 模型 (必须与生成 .npy 时使用的模型一致)
-MODEL_NAME = 'all-mpnet-base-v2'
+# ==========================================
+# 2. 增强版搜索指令 (Enhanced Search Queries)
+# ==========================================
+# 这些 Query 是根据你提供的详细列表构建的，专为 Google Scholar 设计。
+# 逻辑：(核心技术) AND (丰富领域词) AND (实验验证) -排除词
 
-# 相似度阈值 (低于此值被视为无关论文)
-SIMILARITY_THRESHOLD = 0.35
-
-# 针对四个领域的搜索关键词 (逻辑: 核心词 AND 领域词 AND 细分词)
 SEARCH_QUERIES = {
-    0: '("Large Language Models" OR "AI Agents") AND ("Human-AI Collaboration" OR "Teaming") AND ("Companionship" OR "Anthropomorphism")',
-    1: '("Large Language Models" OR "ChatGPT") AND ("Psychology" OR "Mental Health") AND ("Persuasion" OR "Belief Change")',
-    2: '("Large Language Models" OR "Generative AI") AND ("Creativity" OR "Ideation") AND ("Divergent Thinking" OR "Novelty")',
-    3: '("Large Language Models" OR "ChatGPT") AND ("Education" OR "Productivity") AND ("Writing Skills" OR "Learning Outcomes")'
+    # Cluster 0: Social & Collaboration
+    0: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "AI chatbot") 
+       AND ("AI companionship" OR "AI companion" OR "human-AI relationship" OR "emotional support" OR "loneliness" OR "anthropomorphism" OR "parasocial relationship" OR "mental health" OR "user-driven value alignment") 
+       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
+       -survey -review -roadmap -theoretical""",
+
+    # Cluster 1: Psychology & Persuasion
+    1: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+       AND ("conspiracy beliefs" OR "political persuasion" OR "political bias" OR "moral decision" OR "misinformation" OR "trust in AI" OR "cognitive reframing" OR "opinion change" OR "decision-making") 
+       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
+       -survey -review -roadmap -theoretical""",
+
+    # Cluster 2: Creativity & Ideation
+    2: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+       AND ("creativity" OR "creative writing" OR "brainstorming" OR "divergent thinking" OR "collective intelligence" OR "teamwork" OR "collaborating with AI agents" OR "novelty" OR "writing style homogenization") 
+       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
+       -survey -review -roadmap -theoretical""",
+
+    # Cluster 3: Education & Productivity
+    3: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+       AND ("learning outcomes" OR "student engagement" OR "metacognition" OR "reading comprehension" OR "critical thinking" OR "programming education" OR "EFL writing" OR "writing skills" OR "AI in education") 
+       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
+       -survey -review -roadmap -theoretical"""
 }
 
 CLUSTER_NAMES = {
-    0: "Cluster 0: Human-AI Collaboration",
+    0: "Cluster 0: Social & Collaboration",
     1: "Cluster 1: Psychology & Persuasion",
     2: "Cluster 2: Creativity & Ideation",
     3: "Cluster 3: Education & Productivity"
 }
 
 # ==========================================
-# 2. 核心类定义
+# 3. 辅助函数：Semantic Scholar API
 # ==========================================
+def get_full_abstract_from_s2(title):
+    """
+    通过标题去 Semantic Scholar 获取完整摘要
+    """
+    try:
+        url = "https://api.semanticscholar.org/graph/v1/paper/search"
+        params = {
+            "query": title,
+            "limit": 1,
+            "fields": "title,abstract,year,url,venue"
+        }
+        response = requests.get(url, params=params, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if data['total'] > 0 and 'data' in data:
+                paper = data['data'][0]
+                return paper.get('abstract'), paper.get('url')
+    except Exception as e:
+        pass # 静默失败，使用 Google Snippet 作为备选
+    
+    return None, None
 
+# ==========================================
+# 4. 核心类：分类器
+# ==========================================
 class PaperClassifier:
     def __init__(self, csv_path, npy_path, model_name):
         print(f"Loading embedding model: {model_name}...")
@@ -50,157 +95,119 @@ class PaperClassifier:
         self.df = pd.read_csv(csv_path)
         self.embeddings = np.load(npy_path)
         self.centroids = self._calculate_centroids()
-        print("Classifier initialized successfully.")
 
     def _calculate_centroids(self):
         centroids = {}
         for cluster_id in range(4):
-            # 获取属于该聚类的所有索引
             indices = self.df[self.df['cluster'] == cluster_id].index
-            if len(indices) == 0:
-                print(f"Warning: Cluster {cluster_id} has no data.")
-                continue
-            # 计算平均向量 (Centroid)
-            cluster_embeddings = self.embeddings[indices]
-            centroids[cluster_id] = np.mean(cluster_embeddings, axis=0)
+            if len(indices) > 0:
+                cluster_embeddings = self.embeddings[indices]
+                centroids[cluster_id] = np.mean(cluster_embeddings, axis=0)
+            else:
+                centroids[cluster_id] = np.zeros(768)
         return centroids
 
     def classify(self, title, abstract):
-        """
-        输入标题和摘要，返回 (预测类别ID, 相似度得分, 详细距离信息)
-        如果得分低于阈值，预测类别ID 为 -1 (Unrelated)
-        """
-        # 构造输入文本，保持格式一致性
         text = f"{title} [SEP] {abstract}"
         vector = self.model.encode([text])
         
         scores = {}
         for cid, centroid in self.centroids.items():
-            # 计算余弦相似度
             sim = cosine_similarity(vector, centroid.reshape(1, -1))[0][0]
             scores[cid] = sim
             
-        # 找到最相似的 Cluster
         best_cluster = max(scores, key=scores.get)
         best_score = scores[best_cluster]
         
         if best_score < SIMILARITY_THRESHOLD:
-            return -1, best_score, scores # -1 表示无关
+            return -1, best_score, scores
         else:
             return best_cluster, best_score, scores
 
 # ==========================================
-# 3. 爬虫函数
+# 5. 主程序逻辑
 # ==========================================
-
-def fetch_papers_from_google_scholar(queries, max_per_query=5):
-    """
-    爬取指定 Query 的论文。
-    注意：Google Scholar 有严格的反爬限制。
-    如果遇到 CAPTCHA，程序可能会报错或需要人工干预。
-    """
+def main():
+    # --- 步骤 1: 爬取与初步过滤 ---
     fetched_data = []
+    # 实验性验证词 (在摘要中查找)
+    experimental_keywords = ["participant", "user study", "experiment", "n=", "subjects", "respondents", "empirical", "rct", "method", "interview", "survey"]
     
-    # 可选：设置代理 (如果本地无法直连 Google Scholar)
-    # pg = ProxyGenerator()
-    # pg.FreeProxies()
-    # scholarly.use_proxy(pg)
-
-    for cluster_id, query in queries.items():
-        print(f"\nSearching for Cluster {cluster_id}: {query[:50]}...")
+    print("Starting search with enhanced queries...")
+    
+    for cluster_id, query in SEARCH_QUERIES.items():
+        print(f"\n--- Searching Cluster {cluster_id} ---")
         try:
-            search_query = scholarly.search_pubs(query)
+            # 注意: 这里每组只取 10 篇演示，实际使用可调大
+            search_iterator = scholarly.search_pubs(query)
             count = 0
             
-            for pub in search_query:
-                if count >= max_per_query:
-                    break
+            for pub in search_iterator:
+                if count >= 10: break # 每个 Cluster 限制抓取数量
                 
-                # 提取必要信息
-                # bib 包含 title, abstract, author, venue, year 等
-                bib = pub.get('bib', {})
-                title = bib.get('title', 'N/A')
-                abstract = bib.get('abstract', 'N/A')
-                pub_url = pub.get('pub_url', 'N/A')
-                year = bib.get('pub_year', 'N/A')
+                title = pub.get('bib', {}).get('title')
+                if not title: continue
                 
-                # 只有当包含有效摘要时才保存（用于分类）
-                if abstract != 'N/A' and len(abstract) > 50:
-                    fetched_data.append({
-                        'search_query_cluster': cluster_id, # 记录这是用哪个领域的词搜出来的
-                        'title': title,
-                        'abstract': abstract,
-                        'url': pub_url,
-                        'year': year
-                    })
-                    print(f"  [Found] {title[:60]}...")
-                    count += 1
+                print(f"  [Found] {title[:50]}...")
                 
-                # 随机休眠 2-5 秒，防止被封 IP
-                time.sleep(random.uniform(2, 5))
+                # 双层抓取：去 S2 拿完整摘要
+                full_abstract, s2_url = get_full_abstract_from_s2(title)
+                
+                final_abstract = full_abstract if full_abstract else pub.get('bib', {}).get('abstract', '')
+                final_url = s2_url if s2_url else pub.get('pub_url')
+                
+                # 过滤逻辑：必须包含实验性词汇
+                if final_abstract and len(final_abstract) > 50:
+                    is_experimental = any(k in final_abstract.lower() for k in experimental_keywords)
+                    
+                    if is_experimental:
+                        fetched_data.append({
+                            'search_cluster': cluster_id,
+                            'title': title,
+                            'abstract': final_abstract,
+                            'url': final_url,
+                            'year': pub.get('bib', {}).get('pub_year', 'N/A')
+                        })
+                        print(f"    -> [Kept] Verified as experimental.")
+                        count += 1
+                    else:
+                        print(f"    -> [Dropped] Likely theoretical/review.")
+                
+                # 礼貌休眠
+                time.sleep(random.uniform(2, 4))
                 
         except Exception as e:
-            print(f"  [Error] searching for cluster {cluster_id}: {e}")
-            continue
+            print(f"  [Error] {e}")
+
+    # --- 步骤 2: 分类与保存 ---
+    if not fetched_data:
+        print("No papers found matching criteria.")
+        return
+
+    print(f"\nClassifying {len(fetched_data)} papers...")
+    
+    if os.path.exists(EXISTING_CSV_PATH) and os.path.exists(EXISTING_EMBEDDINGS_PATH):
+        classifier = PaperClassifier(EXISTING_CSV_PATH, EXISTING_EMBEDDINGS_PATH, MODEL_NAME)
+        
+        results = []
+        for item in fetched_data:
+            c_id, score, _ = classifier.classify(item['title'], item['abstract'])
             
-    return pd.DataFrame(fetched_data)
-
-# ==========================================
-# 4. 主执行流程
-# ==========================================
-
-def main():
-    # --- 步骤 1: 爬取数据 ---
-    # 为了演示，这里每个领域只爬取 3 篇。实际使用可以改大 max_per_query
-    print("--- Step 1: Fetching papers from Google Scholar ---")
-    new_papers_df = fetch_papers_from_google_scholar(SEARCH_QUERIES, max_per_query=3)
-    
-    if new_papers_df.empty:
-        print("No papers found or crawler blocked. Exiting.")
-        return
-
-    print(f"\nFetched {len(new_papers_df)} papers. Now classifying...")
-
-    # --- 步骤 2: 初始化分类器 ---
-    # 确保当前目录下有 .csv 和 .npy 文件
-    if not os.path.exists(EXISTING_CSV_PATH) or not os.path.exists(EXISTING_EMBEDDINGS_PATH):
-        print("Error: content files (csv/npy) not found.")
-        return
-        
-    classifier = PaperClassifier(EXISTING_CSV_PATH, EXISTING_EMBEDDINGS_PATH, MODEL_NAME)
-
-    # --- 步骤 3: 分类与结果处理 ---
-    results = []
-    
-    for idx, row in new_papers_df.iterrows():
-        title = row['title']
-        abstract = row['abstract']
-        
-        # 调用分类
-        pred_cluster, score, _ = classifier.classify(title, abstract)
-        
-        # 结果格式化
-        status = "Unrelated" if pred_cluster == -1 else f"Cluster {pred_cluster}"
-        cluster_name = "Unrelated / Out of Scope" if pred_cluster == -1 else CLUSTER_NAMES[pred_cluster]
-        
-        results.append({
-            'title': title,
-            'abstract': abstract,
-            'url': row['url'],
-            'year': row['year'],
-            'search_origin': row['search_query_cluster'], # 它是用哪个词搜出来的
-            'predicted_cluster': pred_cluster,            # 模型判定它属于哪个类
-            'predicted_label': cluster_name,
-            'confidence_score': round(score, 4)
-        })
-        
-        print(f"Paper: {title[:30]}... -> {status} (Score: {score:.2f})")
-
-    # --- 步骤 4: 保存结果 ---
-    final_df = pd.DataFrame(results)
-    final_df.to_csv(OUTPUT_CSV_PATH, index=False, encoding='utf-8-sig')
-    print(f"\nDone! Results saved to {OUTPUT_CSV_PATH}")
-    print(final_df[['title', 'predicted_label', 'confidence_score']].head())
+            label = CLUSTER_NAMES.get(c_id, "Unrelated") if c_id != -1 else "Unrelated"
+            
+            results.append({
+                **item,
+                'predicted_cluster': c_id,
+                'predicted_label': label,
+                'confidence': round(score, 4)
+            })
+            print(f"  -> {label} (Score: {score:.2f}) | {item['title'][:30]}...")
+            
+        # 保存结果
+        pd.DataFrame(results).to_csv(OUTPUT_CSV_PATH, index=False, encoding='utf-8-sig')
+        print(f"\nDone! Saved to {OUTPUT_CSV_PATH}")
+    else:
+        print("Error: Missing 'papers_with_clusters.csv' or 'embeddings.npy'. Cannot classify.")
 
 if __name__ == "__main__":
     main()
