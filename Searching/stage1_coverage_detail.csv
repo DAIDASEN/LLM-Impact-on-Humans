@@ -3,12 +3,12 @@
 1,Hidden Persuaders: LLMs’ Political Leaning and Their Influence on Voters,no_match,,
 1,The Levers of Political Persuasion with Conversational AI,no_match,,
 1,Humans inherit artificial intelligence biases,no_match,,
-1,Fact-checking information from large language models can decrease headline discernment,no_match,,
+1,Fact-checking information from large language models can decrease headline discernment,exact,Fact-checking information from large language models can decrease headline discernment,1.0
 1,Biased AI improves human decision-making but reduces trust,no_match,,
 1,AI can help humans find common ground in democratic deliberation,no_match,,
 1,Mitigating the impact of biased artificial intelligence in emergency decision-making,no_match,,
-3,Experimental evidence on the productivity effects of generative artificial intelligence,no_match,,
-3,Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task,no_match,,
+3,Experimental evidence on the productivity effects of generative artificial intelligence,exact,Experimental evidence on the productivity effects of generative artificial intelligence,1.0
+3,Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task,exact,Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task,1.0
 2,An empirical investigation of the impact of ChatGPT on creativity,exact,An empirical investigation of the impact of ChatGPT on creativity,1.0
 1,How large language models can reshape collective intelligence,no_match,,
 2,Creative scar without generative AI: Individual creativity fails to sustain while homogeneity keeps climbing,exact,Creative scar without generative AI: Individual creativity fails to sustain while homogeneity keeps climbing,1.0
@@ -39,7 +39,7 @@
 0,User-Driven Value Alignment: Understanding Users' Perceptions and Strategies for Addressing Biased and Discriminatory Statements in AI Companions,no_match,,
 3,Optimizing academic engagement and mental health through AI: an experimental study on LLM integration in higher education,no_match,,
 3,Impact of LLM Feedback on Learner Persistence in Programming,no_match,,
-3,Effects of LLM Use and NoteTaking on Reading Comprehension and Memory: A Randomised Experiment in Secondary Schools,fuzzy>=0.92,Effects of LLM use and note-taking on reading comprehension and memory: A randomised experiment in secondary schools,0.9956
-3,Exploring the Impact of Generative AI ChatGPT on Critical Thinking in Higher Education: Passive AI‑Directed Use or Human–AI Supported Collaboration?,fuzzy>=0.92,Exploring the Impact of Generative AI ChatGPT on Critical Thinking in Higher Education: Passive AI-Directed Use or Human–AI Supported Collaboration?,0.9932
+3,Effects of LLM Use and NoteTaking on Reading Comprehension and Memory: A Randomised Experiment in Secondary Schools,no_match,,
+3,Exploring the Impact of Generative AI ChatGPT on Critical Thinking in Higher Education: Passive AI‑Directed Use or Human–AI Supported Collaboration?,no_match,,
 3,Measuring the Impact of Large Language Models on Academic Success and Quality of Life Among Students with Visual Disability: An Assistive Technology Perspective,no_match,,
 3,The Impact of ChatGPT on English as a Foreign Language Learners' Writing Skills – An Experimental Study at Georgian Universities,no_match,,

@@ -30,9 +30,28 @@ TECH_TERMS = '("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" O
 
 DOMAIN_TERMS = {
     0: '("AI companionship" OR "AI companion" OR "human-AI relationship" OR "emotional support" OR "loneliness" OR "anthropomorphism" OR "parasocial relationship" OR "mental health" OR "user-driven value alignment")',
-    1: '("conspiracy beliefs" OR "political persuasion" OR "political bias" OR "moral decision" OR "misinformation" OR "trust in AI" OR "cognitive reframing" OR "opinion change" OR "decision-making")',
+    # Cluster 1 真实主题（来自 Origin Clusters/cluster_1.csv）：政治说服/偏见/投票 + 阴谋论/错误信息/事实核查 +
+    # 群体审议(common ground/deliberation) + 重新表述(reframing/receptiveness) + 信任/依赖/不确定性表达/自动化偏见(决策支持)
+    1: '("conspiracy belief" OR "conspiracy beliefs" OR "conspiracy theory" OR "conspiracy theories" '
+       'OR "misinformation" OR "disinformation" OR "fact-checking" OR "fact checking" OR "headline discernment" '
+       'OR "political persuasion" OR "persuasive messages" OR "attitude change" OR "opinion change" OR "belief updating" '
+       'OR "political bias" OR "political leaning" OR "partisanship" OR "partisan" OR "ideology" OR "voters" OR "voting" OR "election" '
+       'OR "policy issues" OR "democratic deliberation" OR "common ground" '
+       'OR "content moderation" OR "reframing" OR "receptiveness" '
+       'OR "trust" OR "reliance" OR "overreliance" OR "uncertainty expression" '
+       'OR "decision support" OR "automation bias" OR "human-AI decision-making")',
     2: '("creativity" OR "creative writing" OR "brainstorming" OR "divergent thinking" OR "collective intelligence" OR "teamwork" OR "collaborating with AI agents" OR "novelty" OR "writing style homogenization")',
-    3: '("learning outcomes" OR "student engagement" OR "metacognition" OR "reading comprehension" OR "critical thinking" OR "programming education" OR "EFL writing" OR "writing skills" OR "AI in education")',
+    # Cluster 3 真实主题（来自 Origin Clusters/cluster_3.csv）：教育+生产力双主线（工作生产力/写作任务/认知负担）+
+    # 学习(数学/编程/阅读/写作)/AI tutor/反馈/长期学习迁移
+    3: '("productivity" OR "workplace" OR "knowledge work" OR "task performance" OR "professional writing" '
+       'OR "writing task" OR "essay writing" OR "writing assistant" OR "writing assistance" OR "writing skills" '
+       'OR "cognitive load" OR "cognitive debt" OR "metacognition" OR "metacognitive" OR "self-regulated learning" '
+       'OR "learning outcomes" OR "learning engagement" OR "student engagement" OR "academic engagement" '
+       'OR "AI tutor" OR "tutor" OR "homework tutor" OR "mathematics" OR "high school math" '
+       'OR "programming" OR "programming assignment" OR "compiler error" OR "automated assessment" OR "feedback" '
+       'OR "reading comprehension" OR "note-taking" OR "memory retention" OR "critical thinking" '
+       'OR "higher education" OR "EFL writing" OR "assistive technology" OR "visual disability" '
+       'OR "GitHub Copilot" OR "Copilot")',
 }
 
 CLUSTER_NAMES = {

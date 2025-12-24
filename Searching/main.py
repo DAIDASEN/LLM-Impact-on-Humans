@@ -32,10 +32,34 @@ SEARCH_QUERIES = {
        -survey -review -roadmap -theoretical""",
 
     # Cluster 1: Psychology & Persuasion
-    1: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
-       AND ("conspiracy beliefs" OR "political persuasion" OR "political bias" OR "moral decision" OR "misinformation" OR "trust in AI" OR "cognitive reframing" OR "opinion change" OR "decision-making") 
-       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
-       -survey -review -roadmap -theoretical""",
+    1: """("LLM" OR "LLMs" OR "large language model" OR "large language models"
+            OR "language model" OR "language models"
+            OR "generative AI" OR "ChatGPT" OR "AI assistant" OR "conversational AI" OR "AI chatbot")
+       AND ("conspiracy belief" OR "conspiracy beliefs" OR "conspiracy theory" OR "conspiracy theories"
+            OR misinformation OR disinformation OR "false information" OR "fact-checking" OR "fact checking"
+            OR "headline discernment" OR "truth discernment"
+            OR persuasion OR "political persuasion" OR "persuasive message" OR "persuasive messages"
+            OR "attitude change" OR "opinion change" OR "belief change" OR "belief updating" OR "belief revision"
+            OR "issue framing" OR reframing OR "cognitive reframing" OR "cognitive reappraisal"
+            OR "policy issue" OR "policy issues"
+            OR election OR elections OR voters OR voting
+            OR ideology OR ideological OR partisanship OR partisan OR "political leaning" OR "political bias"
+            OR polarization OR polarisation OR depolarization OR depolarisation
+            OR deliberation OR "democratic deliberation" OR "deliberative democracy" OR "deliberative polling"
+            OR "common ground" OR consensus OR "collective intelligence"
+            OR "content moderation")
+       AND (trust OR reliance OR overreliance OR "user reliance"
+            OR "trust calibration" OR calibration OR miscalibration
+            OR "algorithmic aversion" OR "algorithm aversion" OR "algorithmic appreciation"
+            OR "automation bias" OR "advice taking" OR "advice-taking"
+            OR "decision support" OR "human-AI decision-making"
+            OR "uncertainty expression" OR "uncertainty communication" OR hedging OR confidence OR overconfidence)
+       AND ("user study" OR users OR "human subjects"
+            OR randomized OR randomised OR "randomized controlled trial" OR "randomised controlled trial"
+            OR preregistered OR "pre-registered"
+            OR "controlled experiment" OR "lab experiment" OR "online experiment" OR "field experiment"
+            OR participants OR "N=" OR "empirical study" OR "behavioral experiment")
+       -survey -questionnaire -review -meta-analysis -systematic -roadmap -theoretical -conceptual -framework""",
 
     # Cluster 2: Creativity & Ideation
     2: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
@@ -44,10 +68,33 @@ SEARCH_QUERIES = {
        -survey -review -roadmap -theoretical""",
 
     # Cluster 3: Education & Productivity
-    3: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
-       AND ("learning outcomes" OR "student engagement" OR "metacognition" OR "reading comprehension" OR "critical thinking" OR "programming education" OR "EFL writing" OR "writing skills" OR "AI in education") 
-       AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
-       -survey -review -roadmap -theoretical"""
+    3: """("LLM" OR "LLMs" OR "large language model" OR "large language models"
+            OR "generative AI" OR "generative artificial intelligence"
+            OR "ChatGPT" OR "AI assistant" OR "AI tutor"
+            OR Copilot OR "GitHub Copilot" OR "AI writing assistant" OR "conversational agent")
+       AND (education OR learning OR classroom OR student OR students OR "higher education" OR university OR college
+            OR school OR "high school" OR "secondary school"
+            OR productivity OR "knowledge work" OR workplace OR "task performance"
+            OR "professional writing" OR "writing task" OR writing OR "essay writing"
+            OR "writing assistant" OR "writing assistance" OR "writing skills"
+            OR feedback OR tutoring OR "homework tutor"
+            OR "learning outcomes" OR "learning performance" OR achievement OR grades
+            OR engagement OR motivation OR persistence
+            OR metacognition OR metacognitive OR "self-regulated learning"
+            OR "metacognitive laziness" OR "cognitive debt"
+            OR "cognitive load" OR "critical thinking"
+            OR "reading comprehension" OR "note-taking" OR "memory retention"
+            OR programming OR "programming assignment" OR "code completion"
+            OR "automated assessment" OR "compiler error"
+            OR mathematics OR math OR "high school math"
+            OR "EFL writing"
+            OR "assistive technology" OR "visual disability" OR "visual impairment")
+       AND ("user study" OR users OR "human subjects"
+            OR randomized OR randomised OR "randomized controlled trial" OR "randomised controlled trial"
+            OR preregistered OR "pre-registered"
+            OR "controlled experiment" OR "lab experiment" OR "online experiment" OR "field experiment"
+            OR participants OR students OR "N=" OR "empirical study")
+       -survey -questionnaire -review -meta-analysis -systematic -roadmap -theoretical -conceptual -framework"""
 }
 
 CLUSTER_NAMES = {

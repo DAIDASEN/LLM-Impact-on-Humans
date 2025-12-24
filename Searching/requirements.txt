@@ -1,0 +1,7 @@
+numpy>=1.26.0
+pandas>=2.2.0
+requests>=2.31.0
+scholarly>=1.7.11
+scikit-learn>=1.4.0
+sentence-transformers>=3.0.0
+
