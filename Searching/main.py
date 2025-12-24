@@ -23,28 +23,28 @@ SIMILARITY_THRESHOLD = 0.35      # 低于此相似度则视为无关
 # ==========================================
 # 这些 Query 是根据你提供的详细列表构建的，专为 Google Scholar 设计。
 # 逻辑：(核心技术) AND (丰富领域词) AND (实验验证) -排除词
-
+#TODO : 添加Human的词汇
 SEARCH_QUERIES = {
     # Cluster 0: Social & Collaboration
-    0: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "AI chatbot") 
+    0: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "AI chatbot" OR "LLMs" OR "large language models")
        AND ("AI companionship" OR "AI companion" OR "human-AI relationship" OR "emotional support" OR "loneliness" OR "anthropomorphism" OR "parasocial relationship" OR "mental health" OR "user-driven value alignment") 
        AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
        -survey -review -roadmap -theoretical""",
 
     # Cluster 1: Psychology & Persuasion
-    1: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+    1: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
        AND ("conspiracy beliefs" OR "political persuasion" OR "political bias" OR "moral decision" OR "misinformation" OR "trust in AI" OR "cognitive reframing" OR "opinion change" OR "decision-making") 
        AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
        -survey -review -roadmap -theoretical""",
 
     # Cluster 2: Creativity & Ideation
-    2: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+    2: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
        AND ("creativity" OR "creative writing" OR "brainstorming" OR "divergent thinking" OR "collective intelligence" OR "teamwork" OR "collaborating with AI agents" OR "novelty" OR "writing style homogenization") 
        AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
        -survey -review -roadmap -theoretical""",
 
     # Cluster 3: Education & Productivity
-    3: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT") 
+    3: """("LLM" OR "large language model" OR "generative AI" OR "ChatGPT" OR "LLMs" OR "large language models") 
        AND ("learning outcomes" OR "student engagement" OR "metacognition" OR "reading comprehension" OR "critical thinking" OR "programming education" OR "EFL writing" OR "writing skills" OR "AI in education") 
        AND ("user study" OR "randomized controlled trial" OR "field experiment" OR "participants" OR "N=" OR "empirical study") 
        -survey -review -roadmap -theoretical"""
