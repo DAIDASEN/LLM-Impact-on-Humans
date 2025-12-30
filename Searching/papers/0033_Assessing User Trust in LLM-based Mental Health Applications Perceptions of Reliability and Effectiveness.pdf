@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Assessing User Trust in LLM-based Mental Health Applications: Perceptions of Reliability and Effectiveness
+							| Journal of Computer Technology and Applied Mathematics
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.20">
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Journal of Computer Technology and Applied Mathematics"/>
+<meta name="citation_journal_abbrev" content="Journal of Computer Technology &amp; Applied Mathematics"/>
+<meta name="citation_issn" content="3007-4134"/> 
+<meta name="citation_author" content="Yuxin Zhao"/>
+<meta name="citation_author_institution" content="New York University"/>
+<meta name="citation_author" content="Jiawei Wu"/>
+<meta name="citation_author_institution" content="Illinois Institute of Technology"/>
+<meta name="citation_author" content="Ping Qu"/>
+<meta name="citation_author_institution" content="Maharishi International University"/>
+<meta name="citation_author" content="Beibei Zhang"/>
+<meta name="citation_author_institution" content="Xi&#039;an Jiaotong University"/>
+<meta name="citation_author" content="Hao Yan"/>
+<meta name="citation_author_institution" content="Syracuse University"/>
+<meta name="citation_title" content="Assessing User Trust in LLM-based Mental Health Applications: Perceptions of Reliability and Effectiveness"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2024/07/01"/>
+<meta name="citation_volume" content="1"/>
+<meta name="citation_issue" content="2"/>
+<meta name="citation_firstpage" content="19"/>
+<meta name="citation_lastpage" content="26"/>
+<meta name="citation_doi" content="10.5281/zenodo.12599805"/>
+<meta name="citation_ark" content="ark:/40704/JCTAM.v1n2a03"/>
+<meta name="citation_purl" content="suas/JCTAM.v1n2a03"/>
+<meta name="citation_abstract_html_url" content="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n2a03"/>
+<meta name="citation_keywords" xml:lang="en" content="User Trust"/>
+<meta name="citation_keywords" xml:lang="en" content="LLM-based Mental Health Applications"/>
+<meta name="citation_keywords" xml:lang="en" content="Reliability and Effectiveness"/>
+<meta name="citation_keywords" xml:lang="en" content="Data Privacy"/>
+<meta name="citation_keywords" xml:lang="en" content="Empathy in AI interactions"/>
+<meta name="citation_pdf_url" content="https://www.suaspress.org/ojs/index.php/JCTAM/article/download/v1n2a03/v1n2a03"/>
+<meta name="citation_reference" content="Hong, B., Zhao, P., Liu, J., Zhu, A., Dai, S., &amp; Li, K. (2024). The application of artificial intelligence technology in assembly techniques within the industrial sector. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 1-12."/>
+<meta name="citation_reference" content="Liu, T., Xu, C., Qiao, Y., Jiang, C., &amp; Chen, W. (2024). News recommendation with attention mechanism. arXiv preprint arXiv:2402.07422."/>
+<meta name="citation_reference" content="Yao, J., Wu, T., &amp; Zhang, X. (2023). Improving depth gradient continuity in transformers: A comparative study on monocular depth estimation with cnn. arXiv preprint arXiv:2308.08333."/>
+<meta name="citation_reference" content="Xiong, J., Feng, M., Wang, X., Jiang, C., Zhang, N., &amp; Zhao, Z. (2024). Decoding sentiments: Enhancing covid-19 tweet analysis through bert-rcnn fusion. Journal of Theory and Practice of Engineering Science, 4(01), 86-93."/>
+<meta name="citation_reference" content="Zou, Z. B., Song, L. P., &amp; Song, Z. L. (2017, December). Labeled box-particle PHD filter for multi-target tracking. In 2017 3rd IEEE International Conference on Computer and Communications (ICCC) (pp. 1725-1730). IEEE."/>
+<meta name="citation_reference" content="Li, K., Xirui, P., Song, J., Hong, B., &amp; Wang, J. (2024). The application of augmented reality (ar) in remote work and education. arXiv preprint arXiv:2404.10579."/>
+<meta name="citation_reference" content="Snyder, J., Goldstein, K. M., Gordon, A., Jacobs, M., Nugent, S., Magnante, A. T., ... &amp; Gierisch, J. (2023). Psychiatric Conditions and Symptoms and Toxic Exposures Incurred During Military Service: An Evidence Map."/>
+<meta name="citation_reference" content="Su, J., Jiang, C., Jin, X., Qiao, Y., Xiao, T., Ma, H., ... &amp; Lin, J. (2024). Large language models for forecasting and anomaly detection: A systematic literature review. arXiv preprint arXiv:2402.10350."/>
+<meta name="citation_reference" content="Zhang, B., Xiao, J., Yan, H., Yang, L., &amp; Qu, P. (2024). Review of NLP Applications in the Field of Text Sentiment Analysis. Journal of Industrial Engineering and Applied Science, 2(3), 28-34."/>
+<meta name="citation_reference" content="Dai, S., Li, K., Luo, Z., Zhao, P., Hong, B., Zhu, A., &amp; Liu, J. (2024). AI-based NLP section discusses the application and effect of bag-of-words models and TF-IDF in NLP tasks. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 13-21."/>
+<meta name="citation_reference" content="Li, K., Zhu, A., Zhou, W., Zhao, P., Song, J., &amp; Liu, J. (2024). Utilizing deep learning to optimize software development processes. arXiv preprint arXiv:2404.13630."/>
+<meta name="citation_reference" content="Zhang, N., Xiong, J., Zhao, Z., Feng, M., Wang, X., Qiao, Y., &amp; Jiang, C. (2024). Dose My Opinion Count? A CNN-LSTM Approach for Sentiment Analysis of Indian General Elections. Journal of Theory and Practice of Engineering Science, 4(05), 40-50."/>
+<meta name="citation_reference" content="Peng, Q., Zheng, C., &amp; Chen, C. (2023). Source-free domain adaptive human pose estimation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4826-4836)."/>
+<meta name="citation_reference" content="Zhang, Y., Gong, Y., Cui, D., Li, X., &amp; Shen, X. (2024). Deepgi: An automated approach for gastrointestinal tract segmentation in mri scans. arXiv preprint arXiv:2401.15354."/>
+<meta name="citation_reference" content="Sun, Y., Cui, Y., Hu, J., &amp; Jia, W. (2018). Relation classification using coarse and fine-grained networks with SDP supervised key words selection. In Knowledge Science, Engineering and Management: 11th International Conference, KSEM 2018, Changchun, China, August 17–19, 2018, Proceedings, Part I 11 (pp. 514-522). Springer International Publishing."/>
+<meta name="citation_reference" content="Cao, Y., Yang, L., Wei, C., &amp; Wang, H. (2023, November). Financial Text Sentiment Classification Based on Baichuan2 Instruction Finetuning Model. In 2023 5th International Conference on Frontiers Technology of Information and Computer (ICFTIC) (pp. 403-406). IEEE."/>
+<meta name="citation_reference" content="Yi, X., &amp; Qiao, Y. (2024). GPU-Based Parallel Computing Methods for Medical Photoacoustic Image Reconstruction. arXiv preprint arXiv:2404.10928."/>
+<meta name="citation_reference" content="Yan, H., Xiao, J., Zhang, B., Yang, L., &amp; Qu, P. (2024). The Application of Natural Language Processing Technology in the Era of Big Data. Journal of Industrial Engineering and Applied Science, 2(3), 20-27."/>
+<meta name="citation_reference" content="Peng, Q., Zheng, C., &amp; Chen, C. (2024). A Dual-Augmentor Framework for Domain Generalization in 3D Human Pose Estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2240-2249)."/>
+<meta name="citation_reference" content="Wang, J., Wang, J., Dai, S., Yu, J., &amp; Li, K. (2024). Research on emotionally intelligent dialogue generation based on automatic dialogue system. arXiv preprint arXiv:2404.11447."/>
+<meta name="citation_reference" content="Liu, T., Cai, Q., Xu, C., Zhou, Z., Ni, F., Qiao, Y., &amp; Yang, T. (2024). Rumor Detection with a novel graph neural network approach. arXiv preprint arXiv:2403.16206."/>
+<meta name="citation_reference" content="Zhu, A., Li, K., Wu, T., Zhao, P., Zhou, W., &amp; Hong, B. (2024). Cross-task multi-branch vision transformer for facial expression and mask wearing classification. arXiv preprint arXiv:2404.14606."/>
+<meta name="citation_reference" content="Zhao, Z., Zhang, N., Xiong, J., Feng, M., Jiang, C., &amp; Wang, X. (2024). Enhancing E-commerce Recommendations: Unveiling Insights from Customer Reviews with BERTFusionDNN. Journal of Theory and Practice of Engineering Science, 4(02), 38-44."/>
+<meta name="citation_reference" content="Zhang, Y., Gui, K., Zhu, M., Hao, Y., &amp; Sun, H. (2024). Unlocking personalized anime recommendations: Langchain and llm at the forefront. Journal of Industrial Engineering and Applied Science, 2(2), 46-53."/>
+<meta name="citation_reference" content="Peng, Q. (2022). Multi-source and Source-Private Cross-Domain Learning for Visual Recognition (Master&#039;s thesis, Purdue University)."/>
+<meta name="citation_reference" content="Li, H., Xu, F., &amp; Lin, Z. (2023). ET-DM: Text to image via diffusion model with efficient Transformer. Displays, 80, 102568."/>
+<meta name="citation_reference" content="Zhu, A., Liu, J., Li, K., Dai, S., Hong, B., Zhao, P., &amp; Wei, C. (2024). Exploiting Diffusion Prior for Out-of-Distribution Detection. arXiv preprint arXiv:2406.11105."/>
+<meta name="citation_reference" content="Zhao, P., Li, K., Hong, B., Zhu, A., Liu, J., &amp; Dai, S. (2024). Task allocation planning based on hierarchical task network for national economic mobilization. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 22-31."/>
+<meta name="citation_reference" content="Liu, T., Cai, Q., Xu, C., Zhou, Z., Xiong, J., Qiao, Y., &amp; Yang, T. (2024). Image Captioning in news report scenario. arXiv preprint arXiv:2403.16209."/>
+<meta name="citation_reference" content="Wang, X., Qiao, Y., Xiong, J., Zhao, Z., Zhang, N., Feng, M., &amp; Jiang, C. (2024). Advanced network intrusion detection with tabtransformer. Journal of Theory and Practice of Engineering Science, 4(03), 191-198."/>
+<meta name="citation_reference" content="Feng, M., Wang, X., Zhao, Z., Jiang, C., Xiong, J., &amp; Zhang, N. (2024). Enhanced Heart Attack Prediction Using eXtreme Gradient Boosting. Journal of Theory and Practice of Engineering Science, 4(04), 9-16."/>
+<meta name="citation_reference" content="Zou, Z., Careem, M., Dutta, A., &amp; Thawdar, N. (2023). Joint spatio-temporal precoding for practical non-stationary wireless channels. IEEE Transactions on Communications, 71(4), 2396-2409."/>
+<meta name="citation_reference" content="Zou, Z., Careem, M., Dutta, A., &amp; Thawdar, N. (2022, May). Unified characterization and precoding for non-stationary channels. In ICC 2022-IEEE International Conference on Communications (pp. 5140-5146). IEEE."/>
+<meta name="citation_reference" content="Zhu, M., Zhang, Y., Gong, Y., Xu, C., &amp; Xiang, Y. (2024). Enhancing Credit Card Fraud Detection A Neural Network and SMOTE Integrated Approach. arXiv preprint arXiv:2405.00026."/>
+<meta name="citation_reference" content="Jin, J., Ni, F., Dai, S., Li, K., &amp; Hong, B. (2024). Enhancing federated semi-supervised learning with out-of-distribution filtering amidst class mismatches. Journal of Computer Technology and Applied Mathematics, 1(1), 100-108."/>
+<meta name="citation_reference" content="Song, J., Liu, H., Li, K., Tian, J., &amp; Mo, Y. (2024). A comprehensive evaluation and comparison of enhanced learning methods. Academic Journal of Science and Technology, 10(3), 167-171."/>
+<meta name="citation_reference" content="Yao, J., Li, C., Sun, K., Cai, Y., Li, H., Ouyang, W., &amp; Li, H. (2023, October). Ndc-scene: Boost monocular 3d semantic scene completion in normalized device coordinates space. In 2023 IEEE/CVF International Conference on Computer Vision (ICCV) (pp. 9421-9431). IEEE Computer Society."/>
+<meta name="citation_reference" content="Xu, C., Yu, J., Chen, W., &amp; Xiong, J. (2024, January). Deep learning in photovoltaic power generation forecasting: Cnn-lstm hybrid neural network exploration and research. In The 3rd International Scientific and Practical Conference (Vol. 363, p. 295)."/>
+<meta name="citation_reference" content="Zhu, M., Zhang, Y., Gong, Y., Xing, K., Yan, X., &amp; Song, J. (2024). Ensemble methodology: Innovations in credit default prediction using lightgbm, xgboost, and localensemble. arXiv preprint arXiv:2402.17979."/>
+<meta name="citation_reference" content="Liu, T., Xu, C., Qiao, Y., Jiang, C., &amp; Yu, J. (2024). Particle filter slam for vehicle localization. arXiv preprint arXiv:2402.07429."/>
+<meta name="citation_reference" content="Yao, J., Pan, X., Wu, T., &amp; Zhang, X. (2024, April). Building lane-level maps from aerial images. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3890-3894). IEEE."/>
+<meta name="citation_reference" content="Peng, Q., Ding, Z., Lyu, L., Sun, L., &amp; Chen, C. (2022). RAIN: regularization on input and network for black-box domain adaptation. arXiv preprint arXiv:2208.10531."/>
+<meta name="citation_reference" content="Zhang, Y., Zhu, M., Gui, K., Yu, J., Hao, Y., &amp; Sun, H. (2024). Development and application of a monte carlo tree search algorithm for simulating da vinci code game strategies. arXiv preprint arXiv:2403.10720."/>
+<meta name="citation_reference" content="Zhibin, Z. O. U., Liping, S. O. N. G., &amp; Xuan, C. (2019). Labeled box-particle CPHD filter for multiple extended targets tracking. Journal of Systems Engineering and Electronics, 30(1), 57-67."/>
+<meta name="citation_reference" content="Lightning, L. D. Application of DCSK in ACO-OFDM-IM technology of optical wireless communication."/>
+<meta name="citation_reference" content="Pinyoanuntapong, E., Ali, A., Jakkala, K., Wang, P., Lee, M., Peng, Q., ... &amp; Sun, Z. (2023, September). Gaitsada: Self-aligned domain adaptation for mmwave gait recognition. In 2023 IEEE 20th International Conference on Mobile Ad Hoc and Smart Systems (MASS) (pp. 218-226). IEEE."/>
+<meta name="citation_reference" content="Zhang, Y., Zhu, M., Gong, Y., &amp; Ding, R. (2023). Optimizing science question ranking through model and retrieval-augmented generation. International Journal of Computer Science and Information Technology, 1(1), 124-130."/>
+<meta name="citation_reference" content="Ni, F., Zang, H., &amp; Qiao, Y. (2024, January). Smartfix: Leveraging machine learning for proactive equipment maintenance in industry 4.0. In The 2nd International scientific and practical conference “Innovations in education: prospects and challenges of today”(January 16-19, 2024), Sofia, Bulgaria, International Science Group (p. 313)."/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Yuxin Zhao"/>
+<meta name="DC.Creator.PersonalName" content="Jiawei Wu"/>
+<meta name="DC.Creator.PersonalName" content="Ping Qu"/>
+<meta name="DC.Creator.PersonalName" content="Beibei Zhang"/>
+<meta name="DC.Creator.PersonalName" content="Hao Yan"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2024-07-01"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2024-07-01"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2024-07-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2024-07-01"/>
+<meta name="DC.Description" xml:lang="en" content="The advent of Large Language Models (LLMs) in mental health applications has opened new avenues for providing psychological support and interventions. These applications leverage advanced natural language processing capabilities to offer real-time assistance, ranging from emotional support to cognitive behavioral therapy techniques. The success of these applications, however, hinges significantly on user trust in their reliability and effectiveness. This paper investigates the multifaceted factors influencing user trust in LLM-based mental health applications, including transparency of algorithms, data privacy, user interface design, perceived empathy, and the accuracy of the provided interventions. Additionally, it explores user perceptions regarding their reliability and effectiveness through a mixed-methods approach encompassing a comprehensive literature review, user surveys, and expert interviews with psychologists and AI ethicists. This study aims to provide a detailed understanding of the current landscape of LLM-based mental health tools, examining both the potential benefits and limitations. By synthesizing findings from diverse sources, it offers actionable insights into how these tools can be improved to enhance user trust and acceptance, ultimately contributing to better mental health outcomes. The implications of this research extend to developers, mental health professionals, and policymakers, highlighting the importance of ethical considerations and user-centered design in the development and deployment of LLM-based mental health solutions."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="v1n2a03"/>
+<meta name="DC.Identifier.pageNumber" content="19-26"/>
+<meta name="DC.Identifier.DOI" content="10.5281/zenodo.12599805"/>
+<meta name="DC.Identifier.ARK" content="ark:/40704/JCTAM.v1n2a03"/>
+<meta name="DC.Identifier.PURL" content="suas/JCTAM.v1n2a03"/>
+<meta name="DC.Identifier.URI" content="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n2a03"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2024 The author retains copyright and grants the journal the right of first publication."/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by/4.0/"/>
+<meta name="DC.Source" content="Journal of Computer Technology and Applied Mathematics"/>
+<meta name="DC.Source.ISSN" content="3007-4134"/>
+<meta name="DC.Source.Issue" content="2"/>
+<meta name="DC.Source.Volume" content="1"/>
+<meta name="DC.Source.URI" content="https://www.suaspress.org/ojs/index.php/JCTAM"/>
+<meta name="DC.Subject" xml:lang="en" content="User Trust"/>
+<meta name="DC.Subject" xml:lang="en" content="LLM-based Mental Health Applications"/>
+<meta name="DC.Subject" xml:lang="en" content="Reliability and Effectiveness"/>
+<meta name="DC.Subject" xml:lang="en" content="Data Privacy"/>
+<meta name="DC.Subject" xml:lang="en" content="Empathy in AI interactions"/>
+<meta name="DC.Title" content="Assessing User Trust in LLM-based Mental Health Applications: Perceptions of Reliability and Effectiveness"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type" xml:lang="en" content="Article"/>
+<meta name="DC.Type.articleType" content="Articles"/>
+<link rel="alternate" type="application/atom+xml" href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/AnnouncementFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/AnnouncementFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/AnnouncementFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://www.suaspress.org/ojs/index.php/JCTAM/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://www.suaspress.org/ojs/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.20" type="text/css" /><link rel="stylesheet" href="https://www.suaspress.org/ojs/plugins/generic/doiInSummary/styles/doi.css?v=3.3.0.20" type="text/css" /><link rel="stylesheet" href="https://www.suaspress.org/ojs/plugins/generic/citations/css/citations.css?v=3.3.0.20" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://www.suaspress.org/ojs/index.php/JCTAM/index
+					" class="is_img">
+							<img src="https://www.suaspress.org/ojs/public/journals/5/pageHeaderLogoImage_en_US.png" width="1400" height="175"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://www.suaspress.org">
+					Home
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/category/news/">
+					News
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/category/notify/">
+					Notifications
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/current">
+					Current
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/archive">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/announcement">
+					Announcements
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/PublishingGuidelines">
+					Publishing Guidelines
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/IndexingAbstracting">
+					Indexing & Abstracting
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/Ethics">
+					Code of Ethics
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/SubmissionInstructions">
+					Submission Instructions
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/CorrectionsRetractions">
+					Corrections & Retractions
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/EditorialProcess">
+					 Editorial Process
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/PRProcess">
+					Peer Review Criteria & Process
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/AuthorCharges">
+					Author Charges
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/EditorialCommittee">
+					Editorial Committee
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about">
+					Statement
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/CopyrightStatement">
+										Copyright Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about/privacy">
+										Privacy Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/DataStorageStatement">
+										Data Storage Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/OAStatement">
+										Open Access Statement
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about/contact">
+										Contact
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://www.suaspress.org/ojs/index.php/JCTAM/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Search
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://www.suaspress.org/ojs/index.php/JCTAM/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n2">
+					Vol. 1 No. 2 (2024)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Articles
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Assessing User Trust in LLM-based Mental Health Applications: Perceptions of Reliability and Effectiveness
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Yuxin Zhao
+							</span>
+															<span class="affiliation">
+									New York University
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Jiawei Wu
+							</span>
+															<span class="affiliation">
+									Illinois Institute of Technology
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Ping Qu
+							</span>
+															<span class="affiliation">
+									Maharishi International University
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Beibei Zhang
+							</span>
+															<span class="affiliation">
+									Xi&#039;an Jiaotong University
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Hao Yan
+							</span>
+															<span class="affiliation">
+									Syracuse University
+																	</span>
+																				</li>
+										</ul>
+				</section>
+						
+			
+																																													<section class="item doi">
+						<h2 class="label">
+							DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.5281/zenodo.12599805">
+								https://doi.org/10.5281/zenodo.12599805
+							</a>
+						</span>
+					</section>
+																																																																					<section class="item doi">
+						<h2 class="label">
+							ARK:
+						</h2>
+						<span class="value">
+							<a href="https://n2t.net/ark:/40704/JCTAM.v1n2a03">
+								https://n2t.net/ark:/40704/JCTAM.v1n2a03
+							</a>
+						</span>
+					</section>
+																																														<section class="item doi">
+						<h2 class="label">
+							PURL:
+						</h2>
+						<span class="value">
+							<a href="https://purl.archive.org/suas/JCTAM.v1n2a03">
+								https://purl.archive.org/suas/JCTAM.v1n2a03
+							</a>
+						</span>
+					</section>
+										
+            
+            
+            
+			<section class="item doi">
+				<h2 class="label">
+					References:
+				</h2>
+				<span class="value">
+
+					                            48 <!-- 添加引用数量 -->
+                    				</span>
+            </section>
+
+									<section class="item keywords">
+				<h2 class="label">
+										Keywords:
+				</h2>
+				<span class="value">
+											User Trust, 											LLM-based Mental Health Applications, 											Reliability and Effectiveness, 											Data Privacy, 											Empathy in AI interactions									</span>
+			</section>
+						
+
+										<section class="item abstract">
+					<h2 class="label">Abstract</h2>
+					<p>The advent of Large Language Models (LLMs) in mental health applications has opened new avenues for providing psychological support and interventions. These applications leverage advanced natural language processing capabilities to offer real-time assistance, ranging from emotional support to cognitive behavioral therapy techniques. The success of these applications, however, hinges significantly on user trust in their reliability and effectiveness. This paper investigates the multifaceted factors influencing user trust in LLM-based mental health applications, including transparency of algorithms, data privacy, user interface design, perceived empathy, and the accuracy of the provided interventions. Additionally, it explores user perceptions regarding their reliability and effectiveness through a mixed-methods approach encompassing a comprehensive literature review, user surveys, and expert interviews with psychologists and AI ethicists. This study aims to provide a detailed understanding of the current landscape of LLM-based mental health tools, examining both the potential benefits and limitations. By synthesizing findings from diverse sources, it offers actionable insights into how these tools can be improved to enhance user trust and acceptance, ultimately contributing to better mental health outcomes. The implications of this research extend to developers, mental health professionals, and policymakers, highlighting the importance of ethical considerations and user-centered design in the development and deployment of LLM-based mental health solutions.</p>
+				</section>
+			
+			
+
+																																																																																																<section class="item author_bios">
+					<h2 class="label">
+													Author Biographies
+											</h2>
+																		<section class="sub_item">
+								<h3 class="label">
+																																							Yuxin Zhao, <span class="affiliation">New York University</span>
+																	</h3>
+								<div class="value">
+									<p>Applied Urban science and informatics, New York University, NY, USA.</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Jiawei Wu, <span class="affiliation">Illinois Institute of Technology</span>
+																	</h3>
+								<div class="value">
+									<p>Engineering in Artificial Intelligence for Computer Vision and Control, Illinois Institute of Technology, Chicago, IL, USA.</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Ping Qu, <span class="affiliation">Maharishi International University</span>
+																	</h3>
+								<div class="value">
+									<p>Computer Science, Maharishi International University, Fairfield, IA, USA.</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Beibei Zhang, <span class="affiliation">Xi&#039;an Jiaotong University</span>
+																	</h3>
+								<div class="value">
+									<p>Software Engineering, Xi'an Jiaotong University, Xi'an, China.</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Hao Yan, <span class="affiliation">Syracuse University</span>
+																	</h3>
+								<div class="value">
+									<p>Engineering and Computer Science, Syracuse University, Syracuse, NY, USA.</p>
+								</div>
+							</section>
+															</section>
+			
+
+
+										<section class="item references">
+					<h2 class="label">
+						References
+					</h2>
+					
+					<div class="value">
+																					<p>Hong, B., Zhao, P., Liu, J., Zhu, A., Dai, S., &amp; Li, K. (2024). The application of artificial intelligence technology in assembly techniques within the industrial sector. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 1-12. </p>
+															<p>Liu, T., Xu, C., Qiao, Y., Jiang, C., &amp; Chen, W. (2024). News recommendation with attention mechanism. arXiv preprint arXiv:2402.07422. </p>
+															<p>Yao, J., Wu, T., &amp; Zhang, X. (2023). Improving depth gradient continuity in transformers: A comparative study on monocular depth estimation with cnn. arXiv preprint arXiv:2308.08333. </p>
+															<p>Xiong, J., Feng, M., Wang, X., Jiang, C., Zhang, N., &amp; Zhao, Z. (2024). Decoding sentiments: Enhancing covid-19 tweet analysis through bert-rcnn fusion. Journal of Theory and Practice of Engineering Science, 4(01), 86-93. </p>
+															<p>Zou, Z. B., Song, L. P., &amp; Song, Z. L. (2017, December). Labeled box-particle PHD filter for multi-target tracking. In 2017 3rd IEEE International Conference on Computer and Communications (ICCC) (pp. 1725-1730). IEEE. </p>
+															<p>Li, K., Xirui, P., Song, J., Hong, B., &amp; Wang, J. (2024). The application of augmented reality (ar) in remote work and education. arXiv preprint arXiv:2404.10579. </p>
+															<p>Snyder, J., Goldstein, K. M., Gordon, A., Jacobs, M., Nugent, S., Magnante, A. T., ... &amp; Gierisch, J. (2023). Psychiatric Conditions and Symptoms and Toxic Exposures Incurred During Military Service: An Evidence Map. </p>
+															<p>Su, J., Jiang, C., Jin, X., Qiao, Y., Xiao, T., Ma, H., ... &amp; Lin, J. (2024). Large language models for forecasting and anomaly detection: A systematic literature review. arXiv preprint arXiv:2402.10350. </p>
+															<p>Zhang, B., Xiao, J., Yan, H., Yang, L., &amp; Qu, P. (2024). Review of NLP Applications in the Field of Text Sentiment Analysis. Journal of Industrial Engineering and Applied Science, 2(3), 28-34. </p>
+															<p>Dai, S., Li, K., Luo, Z., Zhao, P., Hong, B., Zhu, A., &amp; Liu, J. (2024). AI-based NLP section discusses the application and effect of bag-of-words models and TF-IDF in NLP tasks. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 13-21. </p>
+															<p>Li, K., Zhu, A., Zhou, W., Zhao, P., Song, J., &amp; Liu, J. (2024). Utilizing deep learning to optimize software development processes. arXiv preprint arXiv:2404.13630. </p>
+															<p>Zhang, N., Xiong, J., Zhao, Z., Feng, M., Wang, X., Qiao, Y., &amp; Jiang, C. (2024). Dose My Opinion Count? A CNN-LSTM Approach for Sentiment Analysis of Indian General Elections. Journal of Theory and Practice of Engineering Science, 4(05), 40-50. </p>
+															<p>Peng, Q., Zheng, C., &amp; Chen, C. (2023). Source-free domain adaptive human pose estimation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4826-4836). </p>
+															<p>Zhang, Y., Gong, Y., Cui, D., Li, X., &amp; Shen, X. (2024). Deepgi: An automated approach for gastrointestinal tract segmentation in mri scans. arXiv preprint arXiv:2401.15354. </p>
+															<p>Sun, Y., Cui, Y., Hu, J., &amp; Jia, W. (2018). Relation classification using coarse and fine-grained networks with SDP supervised key words selection. In Knowledge Science, Engineering and Management: 11th International Conference, KSEM 2018, Changchun, China, August 17–19, 2018, Proceedings, Part I 11 (pp. 514-522). Springer International Publishing. </p>
+															<p>Cao, Y., Yang, L., Wei, C., &amp; Wang, H. (2023, November). Financial Text Sentiment Classification Based on Baichuan2 Instruction Finetuning Model. In 2023 5th International Conference on Frontiers Technology of Information and Computer (ICFTIC) (pp. 403-406). IEEE. </p>
+															<p>Yi, X., &amp; Qiao, Y. (2024). GPU-Based Parallel Computing Methods for Medical Photoacoustic Image Reconstruction. arXiv preprint arXiv:2404.10928. </p>
+															<p>Yan, H., Xiao, J., Zhang, B., Yang, L., &amp; Qu, P. (2024). The Application of Natural Language Processing Technology in the Era of Big Data. Journal of Industrial Engineering and Applied Science, 2(3), 20-27. </p>
+															<p>Peng, Q., Zheng, C., &amp; Chen, C. (2024). A Dual-Augmentor Framework for Domain Generalization in 3D Human Pose Estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2240-2249). </p>
+															<p>Wang, J., Wang, J., Dai, S., Yu, J., &amp; Li, K. (2024). Research on emotionally intelligent dialogue generation based on automatic dialogue system. arXiv preprint arXiv:2404.11447. </p>
+															<p>Liu, T., Cai, Q., Xu, C., Zhou, Z., Ni, F., Qiao, Y., &amp; Yang, T. (2024). Rumor Detection with a novel graph neural network approach. arXiv preprint arXiv:2403.16206. </p>
+															<p>Zhu, A., Li, K., Wu, T., Zhao, P., Zhou, W., &amp; Hong, B. (2024). Cross-task multi-branch vision transformer for facial expression and mask wearing classification. arXiv preprint arXiv:2404.14606. </p>
+															<p>Zhao, Z., Zhang, N., Xiong, J., Feng, M., Jiang, C., &amp; Wang, X. (2024). Enhancing E-commerce Recommendations: Unveiling Insights from Customer Reviews with BERTFusionDNN. Journal of Theory and Practice of Engineering Science, 4(02), 38-44. </p>
+															<p>Zhang, Y., Gui, K., Zhu, M., Hao, Y., &amp; Sun, H. (2024). Unlocking personalized anime recommendations: Langchain and llm at the forefront. Journal of Industrial Engineering and Applied Science, 2(2), 46-53. </p>
+															<p>Peng, Q. (2022). Multi-source and Source-Private Cross-Domain Learning for Visual Recognition (Master's thesis, Purdue University). </p>
+															<p>Li, H., Xu, F., &amp; Lin, Z. (2023). ET-DM: Text to image via diffusion model with efficient Transformer. Displays, 80, 102568. </p>
+															<p>Zhu, A., Liu, J., Li, K., Dai, S., Hong, B., Zhao, P., &amp; Wei, C. (2024). Exploiting Diffusion Prior for Out-of-Distribution Detection. arXiv preprint arXiv:2406.11105. </p>
+															<p>Zhao, P., Li, K., Hong, B., Zhu, A., Liu, J., &amp; Dai, S. (2024). Task allocation planning based on hierarchical task network for national economic mobilization. Journal of Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 5(1), 22-31. </p>
+															<p>Liu, T., Cai, Q., Xu, C., Zhou, Z., Xiong, J., Qiao, Y., &amp; Yang, T. (2024). Image Captioning in news report scenario. arXiv preprint arXiv:2403.16209. </p>
+															<p>Wang, X., Qiao, Y., Xiong, J., Zhao, Z., Zhang, N., Feng, M., &amp; Jiang, C. (2024). Advanced network intrusion detection with tabtransformer. Journal of Theory and Practice of Engineering Science, 4(03), 191-198. </p>
+															<p>Feng, M., Wang, X., Zhao, Z., Jiang, C., Xiong, J., &amp; Zhang, N. (2024). Enhanced Heart Attack Prediction Using eXtreme Gradient Boosting. Journal of Theory and Practice of Engineering Science, 4(04), 9-16. </p>
+															<p>Zou, Z., Careem, M., Dutta, A., &amp; Thawdar, N. (2023). Joint spatio-temporal precoding for practical non-stationary wireless channels. IEEE Transactions on Communications, 71(4), 2396-2409. </p>
+															<p>Zou, Z., Careem, M., Dutta, A., &amp; Thawdar, N. (2022, May). Unified characterization and precoding for non-stationary channels. In ICC 2022-IEEE International Conference on Communications (pp. 5140-5146). IEEE. </p>
+															<p>Zhu, M., Zhang, Y., Gong, Y., Xu, C., &amp; Xiang, Y. (2024). Enhancing Credit Card Fraud Detection A Neural Network and SMOTE Integrated Approach. arXiv preprint arXiv:2405.00026. </p>
+															<p>Jin, J., Ni, F., Dai, S., Li, K., &amp; Hong, B. (2024). Enhancing federated semi-supervised learning with out-of-distribution filtering amidst class mismatches. Journal of Computer Technology and Applied Mathematics, 1(1), 100-108. </p>
+															<p>Song, J., Liu, H., Li, K., Tian, J., &amp; Mo, Y. (2024). A comprehensive evaluation and comparison of enhanced learning methods. Academic Journal of Science and Technology, 10(3), 167-171. </p>
+															<p>Yao, J., Li, C., Sun, K., Cai, Y., Li, H., Ouyang, W., &amp; Li, H. (2023, October). Ndc-scene: Boost monocular 3d semantic scene completion in normalized device coordinates space. In 2023 IEEE/CVF International Conference on Computer Vision (ICCV) (pp. 9421-9431). IEEE Computer Society. </p>
+															<p>Xu, C., Yu, J., Chen, W., &amp; Xiong, J. (2024, January). Deep learning in photovoltaic power generation forecasting: Cnn-lstm hybrid neural network exploration and research. In The 3rd International Scientific and Practical Conference (Vol. 363, p. 295). </p>
+															<p>Zhu, M., Zhang, Y., Gong, Y., Xing, K., Yan, X., &amp; Song, J. (2024). Ensemble methodology: Innovations in credit default prediction using lightgbm, xgboost, and localensemble. arXiv preprint arXiv:2402.17979. </p>
+															<p>Liu, T., Xu, C., Qiao, Y., Jiang, C., &amp; Yu, J. (2024). Particle filter slam for vehicle localization. arXiv preprint arXiv:2402.07429. </p>
+															<p>Yao, J., Pan, X., Wu, T., &amp; Zhang, X. (2024, April). Building lane-level maps from aerial images. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3890-3894). IEEE. </p>
+															<p>Peng, Q., Ding, Z., Lyu, L., Sun, L., &amp; Chen, C. (2022). RAIN: regularization on input and network for black-box domain adaptation. arXiv preprint arXiv:2208.10531. </p>
+															<p>Zhang, Y., Zhu, M., Gui, K., Yu, J., Hao, Y., &amp; Sun, H. (2024). Development and application of a monte carlo tree search algorithm for simulating da vinci code game strategies. arXiv preprint arXiv:2403.10720. </p>
+															<p>Zhibin, Z. O. U., Liping, S. O. N. G., &amp; Xuan, C. (2019). Labeled box-particle CPHD filter for multiple extended targets tracking. Journal of Systems Engineering and Electronics, 30(1), 57-67. </p>
+															<p>Lightning, L. D. Application of DCSK in ACO-OFDM-IM technology of optical wireless communication. </p>
+															<p>Pinyoanuntapong, E., Ali, A., Jakkala, K., Wang, P., Lee, M., Peng, Q., ... &amp; Sun, Z. (2023, September). Gaitsada: Self-aligned domain adaptation for mmwave gait recognition. In 2023 IEEE 20th International Conference on Mobile Ad Hoc and Smart Systems (MASS) (pp. 218-226). IEEE. </p>
+															<p>Zhang, Y., Zhu, M., Gong, Y., &amp; Ding, R. (2023). Optimizing science question ranking through model and retrieval-augmented generation. International Journal of Computer Science and Information Technology, 1(1), 124-130. </p>
+															<p>Ni, F., Zang, H., &amp; Qiao, Y. (2024, January). Smartfix: Leveraging machine learning for proactive equipment maintenance in industry 4.0. In The 2nd International scientific and practical conference “Innovations in education: prospects and challenges of today”(January 16-19, 2024), Sofia, Bulgaria, International Science Group (p. 313). </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+																				<img
+								src="https://www.suaspress.org/ojs/public/journals/5/article_107_cover_en_US.png"
+								alt=""
+							>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n2a03/v1n2a03">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Published
+					</h2>
+					<div class="value">
+																			<span>2024-07-01</span>
+																	</div>
+				</section>
+							</div>
+			
+										<div class="item citation">
+					<section class="sub_item citation_display">
+						<h2 class="label">
+							How to Cite
+						</h2>
+						<div class="value">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">Zhao, Y., Wu, J., Qu, P., Zhang, B., &#38; Yan, H. (2024). Assessing User Trust in LLM-based Mental Health Applications: Perceptions of Reliability and Effectiveness. <i>Journal of Computer Technology and Applied Mathematics</i>, <i>1</i>(2), 19–26. https://doi.org/10.5281/zenodo.12599805</div>
+</div>
+							</div>
+							<div class="citation_formats">
+								<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+									More Citation Formats
+								</button>
+								<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+									<ul class="citation_formats_styles">
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/acm-sig-proceedings?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/acm-sig-proceedings?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													ACM
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/acs-nano?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/acs-nano?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													ACS
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/apa?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/apa?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													APA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													ABNT
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/chicago-author-date?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/chicago-author-date?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													Chicago
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/harvard-cite-them-right?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/harvard-cite-them-right?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													Harvard
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/ieee?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/ieee?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													IEEE
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/modern-language-association?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/modern-language-association?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													MLA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													Turabian
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/vancouver?submissionId=107&amp;publicationId=107"
+													data-load-citation
+													data-json-href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/get/vancouver?submissionId=107&amp;publicationId=107&amp;return=json"
+												>
+													Vancouver
+												</a>
+											</li>
+																			</ul>
+																			<div class="label">
+											Download Citation
+										</div>
+										<ul class="citation_formats_styles">
+																							<li>
+													<a href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/download/ris?submissionId=107&amp;publicationId=107">
+														<span class="fa fa-download"></span>
+														Endnote/Zotero/Mendeley (RIS)
+													</a>
+												</li>
+																							<li>
+													<a href="https://www.suaspress.org/ojs/index.php/JCTAM/citationstylelanguage/download/bibtex?submissionId=107&amp;publicationId=107">
+														<span class="fa fa-download"></span>
+														BibTeX
+													</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Issue
+							</h2>
+							<div class="value">
+								<a class="title" href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n2">
+									Vol. 1 No. 2 (2024)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Section
+							</h2>
+							<div class="value">
+								Articles
+							</div>
+						</section>
+					
+									</div>
+			
+																																															<section class="item pubid">
+						<h2 class="label">
+							ARK
+						</h2>
+						<div class="value">
+															<a id="pub-id::ark" href="https://n2t.net/ark:/40704/JCTAM.v1n2a03">
+									https://n2t.net/ark:/40704/JCTAM.v1n2a03
+								</a>
+													</div>
+					</section>
+																								<section class="item pubid">
+						<h2 class="label">
+							PURL
+						</h2>
+						<div class="value">
+															<a id="pub-id::purl" href="https://purl.archive.org/suas/JCTAM.v1n2a03">
+									https://purl.archive.org/suas/JCTAM.v1n2a03
+								</a>
+													</div>
+					</section>
+							
+										<div class="item copyright">
+					<h2 class="label">
+						License
+					</h2>
+																										<p>Copyright (c) 2024 The author retains copyright and grants the journal the right of first publication.</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+																
+				</div>
+			
+			<div class="item citations-container" data-image-path="https://www.suaspress.org/ojs/plugins/generic/citations/images/" data-citations-url="https://www.suaspress.org/ojs/index.php/JCTAM/citations/get?citationsId=10.5281%2Fzenodo.12599805&amp;citationsShowList=1&amp;citationsProvider=scopus"
+     data-citations-provider="scopus" data-citations-total="1" data-citations-list="1"
+     data-show-google="1" data-show-pmc="1">
+	<div id="citations-loader"></div>
+	<div class="citations-count">
+		<div class="citations-count-crossref">
+			<img class="img-fluid" src="https://www.suaspress.org/ojs/plugins/generic/citations/images/crossref.png" alt="Crossref"/>
+			<div class="badge_total"></div>
+		</div>
+		<div class="citations-count-scopus">
+			<img src="https://www.suaspress.org/ojs/plugins/generic/citations/images/scopus.png" alt="Scopus"/>
+			<br/>
+			<span class="badge_total"></span>
+		</div>
+		<div class="citations-count-google">
+			<a href="https://scholar.google.com/scholar?q=10.5281/zenodo.12599805" target="_blank" rel="noreferrer">
+				<img src="https://www.suaspress.org/ojs/plugins/generic/citations/images/scholar.png" alt="Google Scholar"/>
+			</a>
+		</div>
+		<div class="citations-count-pmc">
+			<a href="http://europepmc.org/search?scope=fulltext&query=(REF:10.5281/zenodo.12599805)" target="_blank" rel="noreferrer">
+				<img src="https://www.suaspress.org/ojs/plugins/generic/citations/images/pmc.png" alt="Europe PMC"/>
+				<br/>
+				<span class="badge_total"></span>
+			</a>
+		</div>
+	</div>
+	<div class="citations-list"></div>
+    </div>
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	<div id="articlesBySimilarityList">
+	</div>
+<div id="articlesBySameAuthorList">
+						<h3>Most read articles by the same author(s)</h3>
+
+			<ul>
+																													<li>
+													Jiawei Wu,
+													Jingxuan Xiao,
+												<a href="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n3a06">
+							Application of Natural Language Processing in Network Security Log Analysis
+						</a>,
+						<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n3">
+							Journal of Computer Technology and Applied Mathematics: Vol. 1 No. 3 (2024)
+						</a>
+					</li>
+																													<li>
+													Ping Qu,
+													Beibei Zhang,
+													Jiawei Wu,
+													Hao Yan,
+												<a href="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n2a05">
+							Comparison of Text Classification Algorithms based on Deep Learning
+						</a>,
+						<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n2">
+							Journal of Computer Technology and Applied Mathematics: Vol. 1 No. 2 (2024)
+						</a>
+					</li>
+																													<li>
+													Beibei Zhang,
+													Hao Yan,
+													Jiawei Wu,
+													Ping Qu,
+												<a href="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n2a04">
+							Application of Semantic Analysis Technology in Natural Language Processing
+						</a>,
+						<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n2">
+							Journal of Computer Technology and Applied Mathematics: Vol. 1 No. 2 (2024)
+						</a>
+					</li>
+																													<li>
+													Jingxuan Xiao,
+													Jiawei Wu,
+												<a href="https://www.suaspress.org/ojs/index.php/JCTAM/article/view/v1n3a05">
+							Transfer Learning for Cross-Language Natural Language Processing Models
+						</a>,
+						<a href="https://www.suaspress.org/ojs/index.php/JCTAM/issue/view/v1n3">
+							Journal of Computer Technology and Applied Mathematics: Vol. 1 No. 3 (2024)
+						</a>
+					</li>
+							</ul>
+			<div id="articlesBySameAuthorPages">
+				
+			</div>
+			</div>
+
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				 
+<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Make a Submission
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://www.suaspress.org/ojs/index.php/JCTAM/about/submissions">
+			Make a Submission
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_Keywordcloud">
+	<h2 class="title">Keywords</h2>
+	<div class="content" id='wordcloud'></div>
+
+	<script>
+		function randomColor() {
+			var cores = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'];
+			return cores[Math.floor(Math.random()*cores.length)];
+		}
+
+					document.addEventListener("DOMContentLoaded", function() {
+				var keywords = [{"text":"customer lifetime value (clv)","size":1},{"text":"dynamic resource allocation","size":1},{"text":"data-driven decisions","size":1},{"text":"sales optimization","size":1},{"text":"culturally-responsive ai","size":1},{"text":"educational mentorship agents","size":1},{"text":"deep belonging framework","size":1},{"text":"identity-affirming technology","size":1},{"text":"funding rate","size":1},{"text":"lstm","size":1},{"text":"deep learning","size":1},{"text":"edge\u2013cloud execution","size":1},{"text":"retail inventory","size":1},{"text":"lstm model","size":1},{"text":"time series forecasting","size":1},{"text":"parameter optimization","size":1},{"text":"prophet model","size":1},{"text":"exogenous variables","size":1},{"text":"market volatility","size":1},{"text":"procurement demand forecasting","size":1},{"text":"artificial intelligence","size":1},{"text":"ai tools","size":1},{"text":"mobile application","size":1},{"text":"software development life-cycle","size":1},{"text":"user interface","size":1},{"text":"no-arbitrage","size":1},{"text":"asset pricing","size":1},{"text":"stock returns","size":1},{"text":"cnn","size":1},{"text":"gan","size":1},{"text":"market dynamics","size":1},{"text":"corn leaf disease","size":1},{"text":"image enhancement","size":1},{"text":"agricultural automation","size":1},{"text":"disease recognition","size":1},{"text":"machine learning","size":1},{"text":"customer flow analysis","size":1},{"text":"restaurant design","size":1},{"text":"spatial optimization","size":1},{"text":"smart education","size":1},{"text":"platform monitoring","size":1},{"text":"educational technology","size":1},{"text":"data-driven","size":1},{"text":"inception","size":1},{"text":"blood cell","size":1},{"text":"image classification","size":1},{"text":"hyperparameters optimization","size":1},{"text":"speech activity detection","size":1},{"text":"lip synchronization","size":1},{"text":"video conferencing","size":1}];
+				var totalWeight = 0;
+				var width = 300;
+				var height = 200;
+				var transitionDuration = 200;	
+				var length_keywords = keywords.length;
+				var layout = d3.layout.cloud();
+
+				layout.size([width, height])
+					.words(keywords)
+					.fontSize(function(d)
+					{
+						return fontSize(+d.size);
+					})
+					.on('end', draw);
+				
+				var svg = d3.select("#wordcloud").append("svg")
+					.attr("viewBox", "0 0 " + width + " " + height)	
+					.attr("width", '100%');		
+				
+				function update() {
+					var words = layout.words();
+					fontSize = d3.scaleLinear().range([16, 34]);
+					if (words.length) {
+						fontSize.domain([+words[words.length - 1].size || 1, +words[0].size]);
+					}
+				}
+				
+				keywords.forEach(function(item,index){totalWeight += item.size;});
+
+				update();
+
+				function draw(words, bounds) {
+					var w = layout.size()[0],
+						h = layout.size()[1];
+
+					scaling = bounds
+						? Math.min(
+							w / Math.abs(bounds[1].x - w / 2),
+							w / Math.abs(bounds[0].x - w / 2),
+							h / Math.abs(bounds[1].y - h / 2),
+							h / Math.abs(bounds[0].y - h / 2),
+						) / 2
+						: 1;
+
+					svg
+					.append("g")
+					.attr(
+						"transform",
+						"translate(" + [w >> 1, h >> 1] + ")scale(" + scaling + ")",
+					)
+					.selectAll("text")
+						.data(words)
+					.enter().append("text")
+						.style("font-size", function(d) { return d.size + "px"; })
+						.style("font-family", 'serif')
+						.style("fill", randomColor)
+						.style('cursor', 'pointer')
+						.style('opacity', 0.7)
+						.attr('class', 'keyword')
+						.attr("text-anchor", "middle")
+						.attr("transform", function(d) {
+							return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+						}) 
+						.text(function(d) { return d.text; })
+						.on("click", function(d, i){
+							window.location = "https://www.suaspress.org/ojs/index.php/JCTAM/search?query=QUERY_SLUG".replace(/QUERY_SLUG/, encodeURIComponent(''+d.text+''));
+						})
+						.on("mouseover", function(d, i) {
+							d3.select(this).transition()
+								.duration(transitionDuration)
+								.style('font-size',function(d) { return (d.size + 3) + "px"; })
+								.style('opacity', 1);
+						})
+						.on("mouseout", function(d, i) {
+							d3.select(this).transition()
+								.duration(transitionDuration)
+								.style('font-size',function(d) { return d.size + "px"; })
+								.style('opacity', 0.7);
+						})
+						.on('resize', function() { update() });
+				}
+
+				layout.start();
+
+			});
+			</script>
+</div>
+<div class="pkp_block block_custom" id="customblock-digital-distribution">
+	<h2 class="title">Digital Distribution</h2>
+	<div class="content">
+		<p>The journal is simultaneously released digitally.</p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/journal-cd-jctam-0e54ad532364e4e863e1fb77c6bb34e3.png" alt="" width="495" height="300"></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-index">
+	<h2 class="title">Indexing & Abstracting </h2>
+	<div class="content">
+		<p>We will synchronously submit your paper to the following database for inclusion:</p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/1doi-foundation-346579aa4ad3469aeefd914734825489.jpg" alt="" width="200" height="51"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/crossref.png" alt="" width="200" height="59"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/6google-scholar-448c09aa511bc3f2299a996b850c7536.jpg" alt="" width="200" height="49"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/arks.png" alt="" width="200" height="59"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/base-logo-kl-1.png" alt="" width="200" height="66"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/ici.png" alt="" width="200" height="52"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/cas.png" alt="" width="200" height="51"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/worldcat-logo.png" alt="" width="200" height="57"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/4openaire-9de27aa085ae611234b377666a582c5c.jpg" alt="" width="200" height="52"></p>
+<p><img src="https://www.suaspress.org/ojs/public/site/images/soong/7issn-portal-f70df7aa5427269628f495268f58b5b1.jpg" alt="" width="200" height="53"></p>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://www.suaspress.org/ojs/index.php/JCTAM/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://www.suaspress.org/ojs/index.php/JCTAM/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://www.suaspress.org/ojs/index.php/JCTAM/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+	<style type="text/css">
+		.block_announcements_article:not(:last-child) {
+			padding-bottom: 1.5em;
+			border-bottom: 1px solid;
+
+		}
+
+		.block_announcements_article {
+			text-align: left;
+		}
+	</style>
+	<div class="pkp_block block_announcements">
+		<h2 class="title">Announcements</h2>
+		<div class="content">
+							<article class="block_announcements_article">
+					<h3 class="block_announcements_article_headline">
+						<a href="https://www.suaspress.org/ojs/index.php/JCTAM/announcement/view/15">
+							Call for Reviewers
+						</a>
+					</h3>
+					<time class="block_announcements_article_date" datetime="2024-01-17">
+						<strong>January 17, 2024</strong>
+					</time>
+					<div class="block_announcements_article_content">
+																										<p>Experts in the area of Basic Science, Humanities and Social Sciences, and Engineering are...
+											</div>
+				</article>
+					</div>
+	</div>
+<div class="pkp_block block_web_feed">
+	<h2 class="title">Current Issue</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://www.suaspress.org/ojs/lib/pkp/templates/images/atom.svg" alt="Atom logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://www.suaspress.org/ojs/lib/pkp/templates/images/rss20_logo.svg" alt="RSS2 logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.suaspress.org/ojs/index.php/JCTAM/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://www.suaspress.org/ojs/lib/pkp/templates/images/rss10_logo.svg" alt="RSS1 logo">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<p><strong>Journal of Computer Technology and Applied Mathematics (JCTAM)</strong></p>
+<p><strong>SUAS Press Series, Commenced in April 2024<br /></strong></p>
+<p>ISSN: Print: <strong>3007-4126</strong>, Online: <strong>3007-4134</strong>, Digital: <strong>3007-4142</strong></p>
+<p>Published by <strong>Southern United Academy of Sciences Limited</strong> (<a href="https://isni.org/isni/0000000512776460">ISNI: 0000000512776460</a>)</p>
+<p>Management and Quality Assurance by the <strong>Journal of Computer Technology and Applied Mathematics Editorial Committee</strong></p>
+<p><strong>Contact Us:</strong></p>
+<ul>
+<li>
+<p>E-Mail: JCTAM@suaspress.org</p>
+</li>
+<li>
+<p>Address: Room D07, 8th Floor, Kai Tak Factory Building Phase 2, 99 King Fook Street, New Po Kong, Kowloon, Hong Kong</p>
+</li>
+</ul>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://www.suaspress.org/ojs/index.php/JCTAM/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://www.suaspress.org/ojs/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://www.suaspress.org/ojs/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/themes/default/js/main.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.3.0.20" type="text/javascript"></script><script src="https://www.suaspress.org/ojs/plugins/generic/citations/js/citations.js?v=3.3.0.20" type="text/javascript"></script><script src="https://d3js.org/d3.v4.js?v=3.3.0.20" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js?v=3.3.0.20" type="text/javascript"></script>
+
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_id=https%3A%2F%2Fwww.suaspress.org%2Fojs%2Findex.php%2FJCTAM%2Farticle%2Fview%2F107&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.language=en_US&amp;rft.genre=article&amp;rft.title=Journal+of+Computer+Technology+and+Applied+Mathematics&amp;rft.jtitle=Journal+of+Computer+Technology+and+Applied+Mathematics&amp;rft.atitle=Assessing+User+Trust+in+LLM-based+Mental+Health+Applications%3A+Perceptions+of+Reliability+and+Effectiveness&amp;rft.artnum=v1n2a03&amp;rft.stitle=Journal+of+Computer+Technology+%26+Applied+Mathematics&amp;rft.volume=1&amp;rft.issue=2&amp;rft.aulast=Zhao&amp;rft.aufirst=Yuxin&amp;rft.date=2024-07-01&amp;rft.au=Jiawei+Wu&amp;rft.au=Ping+Qu&amp;rft.au=Beibei+Zhang&amp;rft.au=Hao+Yan&amp;rft_id=info%3Adoi%2F10.5281%2Fzenodo.12599805&amp;rft.pages=19-26&amp;rft.issn=3007-4126&amp;rft.eissn=3007-4134"></span>
+
+</body>
+</html>

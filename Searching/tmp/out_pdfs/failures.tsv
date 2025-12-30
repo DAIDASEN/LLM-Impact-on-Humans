@@ -1,0 +1,8 @@
+index	url	reason	fallback_url
+3	https://dl.acm.org/doi/abs/10.1145/3706598.3713453	HTTP 403	
+4	https://link.springer.com/chapter/10.1007/978-3-031-46238-2_13	Not PDF (CT=text/html; charset=utf-8)	
+5	https://ojs.aaai.org/index.php/AIES/article/view/36658	Not PDF (CT=text/html; charset=utf-8)	
+6	https://dl.acm.org/doi/abs/10.1145/3715070.3749245	HTTP 403	
+9	https://journals.sagepub.com/doi/abs/10.1177/17456916251351306	ConnectTimeout(MaxRetryError("HTTPSConnectionPool(host='journals.sagepub.com', port=443): Max retries exceeded with url: /doi/abs/10.1177/17456916251351306 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002145D93D640>, 'Connection to journals.sagepub.com timed out. (connect timeout=60)'))"))	
+10	https://academic.oup.com/jcr/advance-article-abstract/doi/10.1093/jcr/ucaf040/8173802	HTTP 403	
+11	https://www.diva-portal.org/smash/record.jsf?pid=diva2:1976255	ConnectTimeout(MaxRetryError("HTTPSConnectionPool(host='www.diva-portal.org', port=443): Max retries exceeded with url: /smash/record.jsf?pid=diva2:1976255 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002145D93D7F0>, 'Connection to www.diva-portal.org timed out. (connect timeout=60)'))"))	

@@ -1,0 +1,1332 @@
+  <!DOCTYPE html>
+  <html >
+    <head>
+      <meta charset="utf-8">
+      <meta rel="search"
+            type="application/opensearchdescription+xml"
+            href="/open_search.xml"
+            title="Academia.edu">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <meta name="google-site-verification" content="bKJMBZA7E43xhDOopFZkssMMkBRjvYERV-NaN4R6mrs">
+
+      <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="bNgZxjKg78DhjX2zcscuJqGXuBXs4mqjcWYE4nJZSivoFgAJQgjmMXOWT6I0kSbrfcoJNEiox3XvraiecZ_r0A" />
+      <meta name="citation_title" content="Generative AI and Metaverse: Companionship and Assisted Living for Elderly People" />
+<meta name="citation_publication_date" content="2023/01/01" />
+<meta name="citation_journal_title" content="SSRN" />
+<meta name="citation_author" content="Dr. Susanta Mitra" />
+<meta name="citation_doi" content="10.13140/RG.2.2.11672.16642" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People" />
+<meta name="twitter:title" content="Generative AI and Metaverse: Companionship and Assisted Living for Elderly People" />
+<meta name="twitter:description" content="An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer&amp;#39;s disease," />
+<meta name="twitter:image" content="https://0.academia-photos.com/2864703/944555/99027636/s200_dr._susanta.mitra.jpg" />
+<meta property="fb:app_id" content="2369844204" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People" />
+<meta property="og:title" content="Generative AI and Metaverse: Companionship and Assisted Living for Elderly People" />
+<meta property="og:image" content="http://a.academia-assets.com/images/open-graph-icons/fb-paper.gif" />
+<meta property="og:description" content="An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer&amp;#39;s disease," />
+<meta property="article:author" content="https://independent.academia.edu/DMitra" />
+<meta name="description" content="An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer&amp;#39;s disease," />
+
+      
+
+
+      <title>(PDF) Generative AI and Metaverse: Companionship and Assisted Living for Elderly People</title>
+
+        <link rel="canonical" href="https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People" />
+
+
+      
+
+      
+<script>
+  var $controller_name = 'single_work';
+  var $action_name = "show";
+  var $rails_env = 'production';
+  var $app_rev = '61bd85669e963b9809598b109f10761e366a6148';
+  var $domain = 'academia.edu';
+  var $app_host = "academia.edu";
+  var $asset_host = "academia-assets.com";
+  var $start_time = new Date().getTime();
+  var $recaptcha_key = "6LdxlRMTAAAAADnu_zyLhLg0YF9uACwz78shpjJB";
+  var $recaptcha_invisible_key = "6Lf3KHUUAAAAACggoMpmGJdQDtiyrjVlvGJ6BbAj";
+  var $disableClientRecordHit = false;
+  // auvid cookie used for analytics tracking - must be globally available for all bundles
+  var $auvid = "MTc2Njk3ODYwNDcxODowLjg1MjI1NzM5ODE1NTkwNTI=";
+  var $route_uri_pattern = '(/:language)/:id(/:slug)(.:format)';
+
+</script>
+
+
+      <script>
+        window.Aedu = window.Aedu || {};
+        window.Aedu.hit_data = null;
+        window.Aedu.serverRenderTime = new Date(1766978605000);
+      </script>
+
+        <link rel="stylesheet" href="//a.academia-assets.com/assets/simpler/logged_out_header-9080beec8106d06ae6309731785d791d9dc265002989b05cb848af938bd67e1e.css" media="all" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VKX33P2DS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5VKX33P2DS', {
+    cookie_domain: 'academia.edu',
+    send_page_view: false,
+  });
+  gtag('event', 'page_view', {
+    'controller': "single_work",
+    'action': "show",
+    'controller_action': 'single_work#show',
+    'logged_in': 'false',
+    'edge': 'unknown',
+    // Send nil if there is no A/B test bucket, in case some records get logged
+    // with missing data - that way we can distinguish between the two cases.
+    // ab_test_bucket should be of the form <ab_test_name>:<bucket>
+    'ab_test_bucket': null,
+  })
+</script>
+
+
+
+
+      <script>
+        window.Aedu.SiteStats = {"monthly_visitor_count_in_millions":31,"paper_count_in_millions":55}
+      </script>
+
+
+      <script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","abstract":"An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer\u0026amp;#39;s disease, hearing loss, impaired sight, cardiac and orthopedic problems. Moreover, restricted movements and lack of physical interactions with relatives, friends and others can create a feeling of isolation among them and may become prone to depression. Again, with the remarkable development of digital technologies and smartphones, various digital applications or Apps covering health, banking, shopping and social media have come up for carrying out daily activities from home through an online mode. However, quite a number of elderly people still feel uncomfortable with the new technologies and regular companionship and assistance are also required for these continuously evolving digital technological environments. Metaverse can be a good immersive and supportive application platform for the elderly people. Moreover, Generative AI is a new promising technology that has huge potential to empower metaverse. No research or publication is known to the author that has discussed in details the ways for aiding elderly people for the mentioned issues under a metaverse platform with the help of generative AI. The current paper has introduced the potential of Generative AI to empower metaverse and has shown the support and assistantship that they can provide together to elderly people through a few use cases.","author":[{"@context":"https://schema.org","@type":"Person","name":"Dr. Susanta Mitra","url":"https://independent.academia.edu/DMitra","image":"https://0.academia-photos.com/2864703/944555/99027636/s200_dr._susanta.mitra.jpg","sameAs":[]}],"contributor":[],"dateCreated":"2023-07-23","dateModified":"2025-10-12","datePublished":"2023-01-01","headline":"Generative AI and Metaverse: Companionship and Assisted Living for Elderly People","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.13140/RG.2.2.11672.16642"},"image":"https://attachments.academia-assets.com/104468156/thumbnails/1.jpg","inLanguage":"en","keywords":["Metaverse","Generative AI","Large language models"],"publication":"SSRN","publisher":{"@context":"https://schema.org","@type":"Organization","name":null},"sameAs":"https://doi.org/10.13140/RG.2.2.11672.16642","sourceOrganization":[{"@context":"https://schema.org","@type":"EducationalOrganization","name":null}],"thumbnailUrl":"https://attachments.academia-assets.com/104468156/thumbnails/1.jpg","url":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","about":{"@type":"ScholarlyArticle","name":"Generative AI and Metaverse: Companionship and Assisted Living for Elderly People","url":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People"},"mainEntity":[{"@type":"Question","name":"What role does Generative AI play in enhancing the metaverse for elderly support?","acceptedAnswer":{"@type":"Answer","text":"The study reveals that Generative AI can create personalized and immersive virtual environments to assist elderly individuals, enhancing their companionship and overall experience. For instance, it enables the rapid development of virtual health clinics tailored to the needs of seniors."}},{"@type":"Question","name":"How does the metaverse facilitate healthcare interactions for elderly individuals?","acceptedAnswer":{"@type":"Answer","text":"Metaverse platforms allow elderly people to interact with healthcare providers from home, providing convenient access to medical support. This approach reflects a shift towards remote consultations, reducing the necessity for physical visits."}},{"@type":"Question","name":"What technological components are essential for a successful metaverse experience for seniors?","acceptedAnswer":{"@type":"Answer","text":"Key components include virtual reality and augmented reality technologies, alongside robust data integration and real-time 3D rendering capabilities. These technologies work together to ensure an immersive and engaging user experience."}},{"@type":"Question","name":"What challenges does Generative AI face in the development of the metaverse?","acceptedAnswer":{"@type":"Answer","text":"The deployment of Generative AI encounters challenges such as the need for diverse training data, scalability, and ensuring data privacy. Additionally, creating consistent and high-quality user experiences remains a significant hurdle."}},{"@type":"Question","name":"What is the importance of digital twins in elderly care within the metaverse?","acceptedAnswer":{"@type":"Answer","text":"Digital twins facilitate real-time monitoring of elderly individuals' health parameters, enabling personalized care solutions in the metaverse. This capability enhances healthcare outcomes by linking physical and digital health experiences seamlessly."}}]}</script><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/default_tokens/rebrand-89afffb91e093c5385bc943212566acb82d8da08820977c439fbb6656b3d411c.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/single_work_page/loswp_redesigns/outline_variant-d7869cdfbd0f463d26f4943bbde847b6a11ec2811de656ee186232b9026f3576.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/single_work_page/outline-81167b90d0109620221d366e55ca8f498a621752df59ae26b6678cf0870d7f37.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/body-c50f5ab98832f511df8842993148351135752147645352dc0b07c369bcb29ab7.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/button-4d6745f84a0a0d8316c46d93a0bc87b9c96d3bce729ca2b864b618764cddd832.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/heading-95367dc03b794f6737f30123738a886cf53b7a65cdef98a922a98591d60063e3.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/text_button-d1941ab08e91e29ee143084c4749da4aaffa350a2ac6eec2306b1d7a352d911a.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/single_work_page/ai_label-529f80fc4bfd876bcf14704d39f2468fffef86fe603e426ab9a313e3abd3ac37.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/single_work_page/ordered_list-9123030494f589694fc98dd7b689a70398eb527516b541b1c648dce5ab690c12.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/pill_button-415e0369ec1a9d16d4ee620aec8867d6e8e5e31496b0c56fb8fea35907265a1b.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/about_hiring/footer-4b1d1471325a90ac5ba51422db929bc292e3d4469d0fabb80d93ab2310ff2719.css" media="all" /><link rel="preload" href="//a.academia-assets.com/fonts/design_system/DM-Sans_100-1000_normal_latin.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="//a.academia-assets.com/fonts/design_system/Gupter_400_normal_latin.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="//a.academia-assets.com/fonts/design_system/Material-Symbols-Outlined.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="//a.academia-assets.com/fonts/design_system/Roboto_100-900_normal_latin.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/font-faces-2356cee1de094354769ab30bf9bb930e5f4cdeb0a4f2cce7272a440eecfa7de9.css" media="all" /><style>.material-symbols-outlined {
+  visibility: hidden;
+  max-width: 20px; /* Our default icon size */
+}
+html.ms-loaded .material-symbols-outlined {
+  visibility: visible;
+  max-width: none;
+}</style><script>(async () => {
+  await document.fonts.load('24px "Material Symbols Outlined"');
+  document.documentElement.classList.add("ms-loaded");
+})();</script><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/common-ae6595f765bfa5b551eb44e15de4953d346eabbc005f6ab5a79f366ea5d2b70b.css" media="all" />
+
+      <script src="https://a.academia-assets.com/webpack_bundles/js/runtime-96f81174c8e6cb7fca32.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/design_system-20b1aee1dbc0a182ba65.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/2492-9eccc81ec314e9df168e.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/7580-8af130f0a5ef2e192bc5.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/5365-aea6b2efb93e637133ff.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/2174-accdf47019ad1115daef.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/827-37dadbf06a0aeaa17150.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/8380-47386d323267cf536db0.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/1137-633146ddeb66408cc3f0.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/1945-ec40a24b4197e92b49f7.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/8656-05725a2b1f619054265d.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/4977-67d50818d3fb60fed438.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/1406-0631d0af827dac78465b.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/6859-bbcd38aff769307ffb40.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/5521-dabb2e0a90e513923d6c.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/2943-ae204a67d167eac65f9d.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/4392-5011fef3c0157b59d755.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/7657-bcc0708fd3a29a90df9a.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/9515-662d994f6dd6808dd85c.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/9756-0317ad5e6302556eeee2.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/fast_loswp-08f3c9dedc8c053c69ba.js" defer="defer"></script>
+<script src="https://a.academia-assets.com/webpack_bundles/js/qualaroo-fd346640dafb2f96e14e.js" defer="defer"></script>
+      <link rel="stylesheet" href="https://a.academia-assets.com/webpack_bundles/css/design_system-882f5d591d03d5353839.css" />
+<link rel="stylesheet" href="https://a.academia-assets.com/webpack_bundles/css/9515-d73b5a6a3fe0e4de30a3.css" />
+<link rel="stylesheet" href="https://a.academia-assets.com/webpack_bundles/css/fast_loswp-668fbd8f77e3ee3b3dd9.css" />
+    </head>
+
+    <body>
+
+      <div id='react-modal'></div>
+
+
+
+
+        <div id="google-root"></div><script>window.loadGoogle = function() {
+  if (window.InitGoogle) {
+    // google.ts already loaded, set it up.
+    window.InitGoogle("331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b");
+  } else {
+    // Set a flag for google.ts to use when it loads.
+    window.GoogleClientID = "331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b";
+  }
+};</script>
+
+      <script>window.facebookAppId = "2369844204";</script>
+
+        <link rel="stylesheet" href="//a.academia-assets.com/assets/simpler/logged_out_header-9080beec8106d06ae6309731785d791d9dc265002989b05cb848af938bd67e1e.css" media="all" /><div class="header--container" id="main-header-container"><div class="header--inner-container header--inner-container-ds2"><div class="header-ds2--left-wrapper"><div class="header-ds2--left-wrapper-inner"><a data-main-header-link-target="logo_home" href="https://www.academia.edu/"><img class="hide-on-desktop-redesign" style="height: 24px; width: 24px;" alt="Academia.edu" src="//a.academia-assets.com/images/academia-logo-redesign-2015-A.svg" width="24" height="24" /><img width="145.2" height="18" class="hide-on-mobile-redesign" style="height: 24px;" alt="Academia.edu" src="//a.academia-assets.com/images/academia-logo-redesign-2015.svg" /></a><div class="header--search-container header--search-container-ds2"><form class="js-SiteSearch-form select2-no-default-pills" action="https://www.academia.edu/search" accept-charset="UTF-8" method="get"><svg style="width: 14px; height: 14px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="header--search-icon svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><input class="header--search-input header--search-input-ds2 js-SiteSearch-form-input" data-main-header-click-target="search_input" name="q" placeholder="Search" type="text" /></form></div></div></div><nav class="header--nav-buttons header--nav-buttons-ds2 js-main-nav"><button class="ds2-5-button ds2-5-button--secondary js-header-login-url header-button-ds2 header-login-ds2 hide-on-mobile-redesign react-login-modal-opener" data-signup-modal="{&quot;location&quot;:&quot;login-button--header&quot;}" rel="nofollow">Log In</button><button class="ds2-5-button ds2-5-button--secondary header-button-ds2 hide-on-mobile-redesign react-login-modal-opener" data-signup-modal="{&quot;location&quot;:&quot;signup-button--header&quot;}" rel="nofollow">Sign Up</button><button class="header--hamburger-button header--hamburger-button-ds2 hide-on-desktop-redesign js-header-hamburger-button"><div class="icon-bar"></div><div class="icon-bar" style="margin-top: 4px;"></div><div class="icon-bar" style="margin-top: 4px;"></div></button></nav></div><ul class="header--dropdown-container js-header-dropdown"><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/login" rel="nofollow">Log In</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/signup" rel="nofollow">Sign Up</a></li><li class="header--dropdown-row js-header-dropdown-expand-button"><button class="header--dropdown-button">more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="header--dropdown-button-icon svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></button></li><li><ul class="header--expanded-dropdown-container"><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/about">About</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/press">Press</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/documents">Papers</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/terms">Terms</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/privacy">Privacy</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/copyright">Copyright</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/hiring"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" class="header--dropdown-row-icon svg-inline--fa fa-briefcase fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>We&#39;re Hiring!</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://support.academia.edu/hc/en-us"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle" class="header--dropdown-row-icon svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>Help Center</a></li><li class="header--dropdown-row js-header-dropdown-collapse-button"><button class="header--dropdown-button">less<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-up" class="header--dropdown-button-icon svg-inline--fa fa-caret-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></button></li></ul></li></ul></div>
+
+      
+
+      <script>window.pageData = {
+  real_authors: [],
+  license: "",
+  attribution: "",
+  highlighted_claims: null
+}</script><script>window.loswp = {};
+window.loswp.shouldDetectTimezone = true;
+window.loswp.work = {"work":{"id":104849902,"created_at":"2023-07-23T09:28:22.153-07:00","from_world_paper_id":null,"updated_at":"2025-10-11T22:01:18.481-07:00","_data":{"doi":"10.13140/RG.2.2.11672.16642","abstract":"An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer's disease, hearing loss, impaired sight, cardiac and orthopedic problems. Moreover, restricted movements and lack of physical interactions with relatives, friends and others can create a feeling of isolation among them and may become prone to depression. Again, with the remarkable development of digital technologies and smartphones, various digital applications or Apps covering health, banking, shopping and social media have come up for carrying out daily activities from home through an online mode. However, quite a number of elderly people still feel uncomfortable with the new technologies and regular companionship and assistance are also required for these continuously evolving digital technological environments. Metaverse can be a good immersive and supportive application platform for the elderly people. Moreover, Generative AI is a new promising technology that has huge potential to empower metaverse. No research or publication is known to the author that has discussed in details the ways for aiding elderly people for the mentioned issues under a metaverse platform with the help of generative AI. The current paper has introduced the potential of Generative AI to empower metaverse and has shown the support and assistantship that they can provide together to elderly people through a few use cases.","key_takeaways":"[\"Generative AI can significantly enhance the metaverse, providing companionship and assistance for elderly individuals.\", \"Global life expectancy rose from 66.8 years in 2019 to 73.3 years in 2020, increasing elderly population challenges.\", \"The text proposes using Generative AI and metaverse technologies to address mental health and cognitive decline in seniors.\", \"Digital avatars and twins can facilitate personalized remote health assistance and social interaction for the elderly.\", \"Significant research gaps exist in utilizing Generative AI and metaverse for elderly care, necessitating further exploration.\"]","publication_date":"2023,,","publication_name":"SSRN"},"document_type":"paper","pre_hit_view_count_baseline":null,"quality":"high","language":"en","title":"Generative AI and Metaverse: Companionship and Assisted Living for Elderly People","broadcastable":true,"draft":false,"has_indexable_attachment":true,"indexable":true,"seo_quality":10,"owner_type":"USER_OWNED"}}["work"];
+window.loswp.previewableAttachments = [{"id":104468156,"identifier":"Attachment_104468156","shouldShowBulkDownload":false}];
+window.loswp.hasViewableAttachments = true;
+window.loswp.cwvAbTestBucket = "";
+window.loswp.designVariant = "outline";
+window.loswp.useOptimizedScribd4genScript = false;
+
+window.loginModal = {};
+window.loginModal.appleClientId = 'edu.academia.applesignon';
+window.userInChina = "false";
+window.facebookLoginDisabled = 'true';</script><script defer="" src="https://accounts.google.com/gsi/client"></script><div class="safe-loswp--grid-container"><div class="left-rail--container"><div class="outline--wrapper  outline-variant--outline"><div class="outline--heading"><p class="ds2-5-body-md-bold">Outline</p><button aria-controls="outline" aria-expanded="false" aria-label="Expand outline" class="ds2-5-button ds2-5-button--inverse js-tc-loswp--outline-toggle outline--toggle js-outline-toggle"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">keyboard_arrow_down</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--outline-toggle"};
+  const button = document.querySelector('.js-tc-loswp--outline-toggle');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script></div><div class="outline--container js-outline-container" id="outline"><div class="outline--progress-container"><div class="outline--progress-line js-outline-progress-line"></div></div><div class="outline--elements-container"><div class="outline--element js-outline-element-title primary" data-target-id="title"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#title">Title</a></div><div class="outline--element js-outline-element-abstract " data-target-id="abstract"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#abstract">Abstract</a></div><div class="outline--element js-outline-element-key-takeaways " data-target-id="key-takeaways"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#key-takeaways">Key Takeaways</a></div><div class="outline--element js-outline-element-outer_page_2 " data-target-id="outer_page_2"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#outer_page_2">Introduction</a></div><div class="outline--element js-outline-element-outer_page_3 " data-target-id="outer_page_3"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#outer_page_3">Related Work and Motivation</a></div><div class="outline--element js-outline-element-outer_page_16 " data-target-id="outer_page_16"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#outer_page_16">Use Cases of Elderly Assistance and Companionship</a></div><div class="outline--element js-outline-element-outer_page_19 " data-target-id="outer_page_19"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#outer_page_19">Prospects and Limitations</a></div><div class="outline--element js-outline-element-outer_page_20 " data-target-id="outer_page_20"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#outer_page_20">Conclusions</a></div><div class="outline--element js-outline-element-references " data-target-id="references"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#references">References</a></div><div class="outline--element js-outline-element-faq " data-target-id="faq"><div class="outline--progress-dot"></div><a class="outline--element-label js-tc-loswp--outline-navigation" href="#faq">FAQs</a></div></div></div></div><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (outline)';
+  }
+
+  const outlineElements = {"Title":"title","Abstract":"abstract","Key Takeaways":"key-takeaways","Introduction":"outer_page_2","Related Work and Motivation":"outer_page_3","Use Cases of Elderly Assistance and Companionship":"outer_page_16","Prospects and Limitations":"outer_page_19","Conclusions":"outer_page_20","References":"references","FAQs":"faq"};
+  Object.entries(outlineElements).forEach(([elementName, elementId]) => {
+    const button = document.querySelector(`.js-outline-element-${elementId} .js-tc-loswp--outline-navigation`);
+    if (!button) return;
+    button.addEventListener('click', () => {
+      fetch('/v0/clicks?subdomain_param=api', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': csrfToken,
+        },
+        keepalive: true,
+        mode: 'same-origin',
+        body: JSON.stringify({
+          source: 'loswp--outline-navigation',
+          extra: { element_name: elementName },
+          occurred_at: new Date(),
+          hit_id: window.Aedu?.hit_data?.id,
+        }),
+      });
+    });
+  });
+});</script></div><div class="main-content--container"><div class="safe-work-card--container js-loswp-work-card" id="loswp-work-card"><div class="breadcrumb-wrapper"><div class="topic-breadcrumb"><div class="topic-breadcrumb__item"><div class="topic-breadcrumb__link"><a class="js-tc-loswp-topic-breadcrumb" data-topic-id="all_topics" href="https://www.academia.edu/topics">All Topics</a></div></div><div class="topic-breadcrumb__item"><div class="topic-breadcrumb__link"><a class="js-tc-loswp-topic-breadcrumb" data-topic-id="422" href="https://www.academia.edu/Documents/in/Computer_Science">Computer Science</a></div></div><div class="topic-breadcrumb__item"><div class="topic-breadcrumb__link"><a class="js-tc-loswp-topic-breadcrumb" data-topic-id="465" href="https://www.academia.edu/Documents/in/Artificial_Intelligence">Artificial Intelligence</a></div></div></div><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp-topic-breadcrumb","entity_id":104849902};
+  const links = document.querySelectorAll('.js-tc-loswp-topic-breadcrumb');
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      const clickedTopicId = link.getAttribute('data-topic-id');
+      fetch('/v0/clicks?subdomain_param=api', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': csrfToken,
+        },
+        keepalive: true,
+        mode: 'same-origin',
+        body: JSON.stringify({
+          ...options,
+          occurred_at: new Date(),
+          hit_id: window.Aedu?.hit_data?.id,
+          extra: {
+            ...options.extra,
+            clicked_topic_id: clickedTopicId,
+          },
+        }),
+      });
+    });
+  });
+});</script></div><div class="safe-work-card--cover"><div class="ds-work-cover--wrapper"><div class="ds-work-cover--container"><style>.login-ghost-button {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+
+  display: block;
+  cursor: pointer;
+  position: relative;
+}</style><button class="js-login-button--ff45f5ad login-ghost-button ds-work-cover--clickable"><img alt="First page of “Generative AI and Metaverse: Companionship and Assisted Living for Elderly People”" class="ds-work-cover--cover-thumbnail" src="https://0.academia-photos.com/attachment_thumbnails/104468156/mini_magick20230723-1-z7g3bj.png?1690129734" /><img alt="PDF Icon" class="ds-work-cover--file-icon" src="//a.academia-assets.com/images/single_work_splash/adobe_icon.svg" /><div class="ds-work-cover--hover-container"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span><p>Download Free PDF</p></div><div class="ds-work-cover--ribbon-container">Download Free PDF</div><div class="ds-work-cover--ribbon-triangle"></div></button><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--ff45f5ad'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--swp-splash-paper-cover","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div></div></div><div class="safe-work-card--work-information"><h1 class="ds-work-card--work-title ds2-5-heading-sans-serif-lg" id="title">Generative AI and Metaverse: Companionship and Assisted Living for Elderly People</h1><div class="ds-work-card--work-authors ds-work-card--detail"><a class="ds-work-card--author js-wsj-grid-card-author ds2-5-body-md ds2-5-body-link" data-author-id="2864703" href="https://independent.academia.edu/DMitra"><img alt="Profile image of Dr. Susanta Mitra" class="ds-work-card--author-avatar" src="https://0.academia-photos.com/2864703/944555/99027636/s65_dr._susanta.mitra.jpg" />Dr. Susanta Mitra</a></div><p class="ds-work-card--detail ds2-5-body-sm">2023, SSRN</p><a class="ds-work-card--detail js-loswp-work-card-doi-link ds2-5-body-sm ds2-5-body-link" href="https://doi.org/10.13140/RG.2.2.11672.16642" rel="nofollow">https://doi.org/10.13140/RG.2.2.11672.16642</a><div class="ds-work-card--work-metadata"><div class="ds-work-card--work-metadata__stat"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">visibility</span><p class="ds2-5-body-sm" id="work-metadata-view-count">…</p></div><div class="ds-work-card--work-metadata__stat"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">description</span><p class="ds2-5-body-sm">24 pages</p></div></div><script>(async () => {
+  const workId = 104849902;
+  const worksViewsPath = "/v0/works/views?subdomain_param=api&amp;work_ids%5B%5D=104849902";
+
+  const getWorkViews = async (workId) => {
+    const response = await fetch(worksViewsPath);
+
+    if (!response.ok) {
+      throw new Error('Failed to load work views');
+    }
+
+    const data = await response.json();
+
+    return data.views[workId];
+  };
+  // Get the view count for the work - we send this immediately rather than waiting for
+  // the DOM to load, so it can be available as soon as possible (but without holding up
+  // the backend or other resource requests, because it's a bit expensive and not critical).
+  const viewCount = await getWorkViews(workId);
+
+  const updateViewCount = (viewCount) => {
+    try {
+      const viewCountNumber = parseInt(viewCount, 10);
+      if (viewCountNumber === 0) {
+        // Remove the whole views element if there are zero views.
+        document.getElementById('work-metadata-view-count')?.parentNode?.remove();
+        return;
+      }
+
+      const commaizedViewCount = viewCountNumber.toLocaleString();
+
+      const viewCountBody = document.getElementById('work-metadata-view-count');
+
+      if (!viewCountBody) {
+        throw new Error('Failed to find work views element');
+      }
+
+      viewCountBody.textContent = `${commaizedViewCount} views`;
+    } catch (error) {
+      // Remove the whole views element if there was some issue parsing.
+      document.getElementById('work-metadata-view-count')?.parentNode?.remove();
+      throw new Error(`Failed to parse view count: ${viewCount}`, error);
+    }
+  };
+
+  // If the DOM is still loading, wait for it to be ready before updating the view count.
+  if (document.readyState === "loading") {
+    document.addEventListener('DOMContentLoaded', () => {
+      updateViewCount(viewCount);
+    });
+  // Otherwise, just update it immediately.
+  } else {
+    updateViewCount(viewCount);
+  }
+})();</script><div class="ds-work-card--button-container"><div class="primary-buttons"><button class="ds2-5-button js-tc-loswp--continue-reading-button--work-card js-login-button--4cda0359"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">description</span>See full PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--continue-reading-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--continue-reading-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--4cda0359'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--continue-reading-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><button class="ds2-5-button ds2-5-button--secondary js-tc-loswp--download-pdf-button--work-card js-login-button--af71344c"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span>Download PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--download-pdf-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--download-pdf-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--af71344c'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People?auto=download","clickTrackingContext":{"source":"loswp--download-pdf-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Download your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue with your free download."},"emailLoginPage":{"subheader":"Log in to continue with your free download."},"emailRegistrationPage":{"subheader":"Sign up to continue with your free download.","submit":"Start Download"}},"registrationParams":{"user_source":"download","doc_id":104468156,"auto":"download"}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><script type="application/json" id="js-react-on-rails-context">{"componentRegistryTimeout":5000,"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","rorVersion":"16.1.2","rorPro":true,"rorProVersion":"3.3.1","href":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","location":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","scheme":"https","host":"www.academia.edu","port":null,"pathname":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","search":null,"httpAcceptLanguage":"en-US,en;q=0.5","autoProps":{},"serverSide":false}</script>
+<div id="CitationButton-react-component-dff4f9cc-5c83-4e3b-aa75-fa2f810875d8"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-CitationButton-react-component-dff4f9cc-5c83-4e3b-aa75-fa2f810875d8" data-component-name="CitationButton" data-dom-id="CitationButton-react-component-dff4f9cc-5c83-4e3b-aa75-fa2f810875d8">{"workId":104849902,"source":"swp_citation_modal","buttonClassName":"ds-work-card--citation-button"}</script></div><div class="share-and-save-buttons"><button class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--bookmark-button--work-card js-login-button--2cbb2cce"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">bookmark</span><span class="ds2-5-text-link__content">Save to Library</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button)';
+  }
+
+  const options = {"source":"loswp--bookmark-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--bookmark-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--2cbb2cce'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--bookmark-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><button class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--share-button--work-card js-login-button--a3b1dd06"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">share</span><span class="ds2-5-text-link__content">Share</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button)';
+  }
+
+  const options = {"source":"loswp--share-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--share-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--a3b1dd06'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--share-button--work-card","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div></div><div class="ds-signup-banner-trigger-container"><div class="ds-signup-banner-trigger ds-signup-banner-trigger-control"></div></div><div class="ds-signup-banner ds-signup-banner-control"><div id="ds-signup-banner-close-button"><button class="ds2-5-button ds2-5-button--secondary ds2-5-button--inverse"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">close</span></button></div><div class="ds-signup-banner-ctas" data-impression-entity-id="104849902" data-impression-entity-type="2" data-impression-source="signup-banner"><img src="//a.academia-assets.com/images/academia-logo-capital-white.svg" /><h4 class="ds2-5-heading-serif-sm">Sign up for access to the world's latest research</h4><button class="ds2-5-button ds2-5-button--inverse ds2-5-button--full-width js-tc-loswp--signup-banner js-login-button--af4242a0">Sign up for free<span class="material-symbols-outlined" style="font-size: 20px" translate="no">arrow_forward</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--signup-banner","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--signup-banner');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--af4242a0'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--signup-banner","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div><div class="ds-signup-banner-divider"></div><div class="ds-signup-banner-reasons"><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Get notified about relevant papers</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Save papers to use in your research</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Join the discussion with peers</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Track your impact</span></div></div></div><script>(() => {
+  // Set up signup banner show/hide behavior:
+  // 1. If the signup banner trigger (a 242px-high* invisible div underneath the 'See Full PDF' / 'Download PDF' buttons)
+  //    is already fully scrolled above the viewport, show the banner by default
+  // 2. If the signup banner trigger is fully visible, show the banner
+  // 3. If the signup banner trigger has even a few pixels scrolled below the viewport, hide the banner
+  //
+  // * 242px is the empirically determined height of the signup banner. It's better to be a bit taller than
+  //   necessary than too short, so it's fine that the mobile (small breakpoint) banner is shorter.
+
+  // First check session storage for the signup banner's visibility state
+  const signupBannerHidden = sessionStorage.getItem('ds-signup-banner-hidden');
+  if (signupBannerHidden === 'true') {
+    return;
+  }
+
+  const signupBanner = document.querySelector('.ds-signup-banner');
+  const signupBannerTrigger = document.querySelector('.ds-signup-banner-trigger');
+
+  let footerShown = false;
+
+  window.addEventListener('load', () => {
+    const rect = signupBannerTrigger.getBoundingClientRect();
+    // If page loaded up already scrolled below the trigger (via scroll restoration), show the banner by default
+    if (rect.bottom < 0) {
+      footerShown = true;
+      signupBanner.classList.add('ds-signup-banner-visible');
+    }
+  });
+
+  // Wait for trigger to fully enter viewport before showing banner (ensures PDF CTAs are never covered by banner)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !footerShown) {
+        footerShown = true;
+        signupBanner.classList.add('ds-signup-banner-visible');
+      } else if (!entry.isIntersecting && footerShown) {
+        if (signupBannerTrigger.getBoundingClientRect().bottom > 0) {
+          footerShown = false;
+          signupBanner.classList.remove('ds-signup-banner-visible');
+        }
+      }
+    });
+  });
+  observer.observe(signupBannerTrigger);
+
+  // Set up signup banner close button event handler:
+  const signupBannerCloseButton = document.querySelector('#ds-signup-banner-close-button');
+  signupBannerCloseButton.addEventListener('click', () => {
+    signupBanner.classList.remove('ds-signup-banner-visible');
+    observer.unobserve(signupBannerTrigger);
+
+    // Store the signup banner's visibility state in session storage
+    sessionStorage.setItem('ds-signup-banner-hidden', 'true');
+  });
+})();</script></div></div><style>@media screen and (min-width: 568px) and (max-width: 621px) {  .ds-work-card--button-container .primary-buttons .ds2-5-button, .ds-work-card--citation-button {    font-size: var(--font-size-small);    line-height: var(--line-height-small);    padding: 0 var(--buttons-small-buttons-l-r-padding, 12px);    height: var(--buttons-small-buttons-height, 44px);    gap: var(--buttons-small-buttons-gap, 8px);    border-radius: var(--buttons-small-buttons-corner-radius, 8px);  }}@media screen and (min-width: 1280px) and (max-width: 1515px) {  .ds-work-card--button-container .primary-buttons .ds2-5-button, .ds-work-card--citation-button {    font-size: var(--font-size-small);    line-height: var(--line-height-small);    padding: 0 var(--buttons-small-buttons-l-r-padding, 12px);    height: var(--buttons-small-buttons-height, 44px);    gap: var(--buttons-small-buttons-gap, 8px);    border-radius: var(--buttons-small-buttons-corner-radius, 8px);  } .ds-work-card--button-container {   flex-direction: column !important; } .ds-work-card--button-container .share-and-save-buttons {   align-self: start; }}</style><div data-auto_select="false" data-client_id="331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b" data-doc_id="104468156" data-landing_url="https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People" data-login_uri="https://www.academia.edu/registrations/google_one_tap" data-use_fedcm_for_prompt="true" id="g_id_onload"></div><div class="safe-abstract--container"><h2 class="safe-abstract--heading ds2-5-heading-sans-serif-lg" id="abstract">Abstract</h2><div class="safe-abstract--body"><style>.truncate-component {
+  position: relative;
+
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 16;
+  -webkit-line-clamp: 16;
+  -webkit-box-orient: vertical;
+}
+
+.toggle-truncation-button {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}</style><div class="truncate-component js-truncate-component--abstract"><p class="ds2-5-body-md">An increasing trend in the number of elderly people across the globe demands more attention and support for several issues in their daily lives. With the advancement of age, there can be a cognitive decline, dementia or Alzheimer&#39;s disease, hearing loss, impaired sight, cardiac and orthopedic problems. Moreover, restricted movements and lack of physical interactions with relatives, friends and others can create a feeling of isolation among them and may become prone to depression. Again, with the remarkable development of digital technologies and smartphones, various digital applications or Apps covering health, banking, shopping and social media have come up for carrying out daily activities from home through an online mode. However, quite a number of elderly people still feel uncomfortable with the new technologies and regular companionship and assistance are also required for these continuously evolving digital technological environments. Metaverse can be a good immersive and supportive application platform for the elderly people. Moreover, Generative AI is a new promising technology that has huge potential to empower metaverse. No research or publication is known to the author that has discussed in details the ways for aiding elderly people for the mentioned issues under a metaverse platform with the help of generative AI. The current paper has introduced the potential of Generative AI to empower metaverse and has shown the support and assistantship that they can provide together to elderly people through a few use cases.</p><div class="toggle-truncation-button js-toggle-truncation-button--abstract"><button class="safe-abstract--toggle-truncation-button"><span>... </span><span class="safe-abstract--toggle-truncation-button-text">Read more</span></button></div></div></div></div><div class="ds-key-takeaways--container"><h2 class="key-takeaways--heading ds2-5-heading-sans-serif-lg" id="key-takeaways">Key takeaways<div class="ai-label"><img alt="sparkles" src="//a.academia-assets.com/images/icons/sparkle.svg" width="16" height="16" /><p class="ds2-5-body-xs">AI</p></div></h2><div class="key-takeaways--content"><ol class="ordered-list key-takeaways--list"><li class="ordered-list--item ds2-5-body-md">Generative AI can significantly enhance the metaverse, providing companionship and assistance for elderly individuals.</li><li class="ordered-list--item ds2-5-body-md">Global life expectancy rose from 66.8 years in 2019 to 73.3 years in 2020, increasing elderly population challenges.</li><li class="ordered-list--item ds2-5-body-md">The text proposes using Generative AI and metaverse technologies to address mental health and cognitive decline in seniors.</li><li class="ordered-list--item ds2-5-body-md">Digital avatars and twins can facilitate personalized remote health assistance and social interaction for the elderly.</li><li class="ordered-list--item ds2-5-body-md">Significant research gaps exist in utilizing Generative AI and metaverse for elderly care, necessitating further exploration.</li></ol><script type="application/json" id="js-react-on-rails-context">{"componentRegistryTimeout":5000,"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","rorVersion":"16.1.2","rorPro":true,"rorProVersion":"3.3.1","href":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","location":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","scheme":"https","host":"www.academia.edu","port":null,"pathname":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","search":null,"httpAcceptLanguage":"en-US,en;q=0.5","autoProps":{},"serverSide":false}</script>
+<div id="FeatureFeedback-react-component-99a32ad8-0ded-4eeb-ad90-2ea87f48792c"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-FeatureFeedback-react-component-99a32ad8-0ded-4eeb-ad90-2ea87f48792c" data-component-name="FeatureFeedback" data-dom-id="FeatureFeedback-react-component-99a32ad8-0ded-4eeb-ad90-2ea87f48792c">{"featureName":"key_takeaways"}</script></div></div><div class="safe-below-fold--related-works"><h2 class="safe-related-content--heading">Related papers</h2><div class="safe-related-content--container" data-nosnippet=""><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="0" data-entity-id="95926131" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/95926131/Virtual_Modeling_of_the_Elderly_to_Improve_Health_and_Wellbeing_Status_Experiences_in_the_Active_Ageing_at_Home_Project">Virtual Modeling of the Elderly to Improve Health and Wellbeing Status: Experiences in the Active Ageing at Home Project</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="44169962" href="https://independent.academia.edu/SaraLoi">Sara  Loi</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Lecture Notes in Electrical Engineering, 2019</p><p class="ds2-5-body-sm ds-related-work--abstract ">Ageing of the population will result in significant social changes in the years to come. A way to cope with social impacts produced by growing seniority is to design and provide services for elderly people to improve their quality of life by means of ICT solutions, both fixed and mobile (wearable and not), pervasive and with low invasiveness according to Ambient Intelligence (AmI) paradigms. The Active Ageing At Home project strived to realize a Personal Guidance System to guide people&#39;s behavior and habits for their benefit, their well-being and to stimulate preventive actions. The goal is to allow individuals to have an active role in managing their own health and in maintaining good health conditions by showing them their &quot;virtual model&quot;, which reflects their specific characteristics in terms of personal profile, risk factors, tastes and personal preferences, eating habits, level of physical activity, sleep/wake rhythm and as such improves their self-awareness in the direction of healthy and wellbeing-favorable behaviors.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--9df9df0a"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":95926131,"extra":{"source_work_id":95926131}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--9df9df0a'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/95926131/Virtual_Modeling_of_the_Elderly_to_Improve_Health_and_Wellbeing_Status_Experiences_in_the_Active_Ageing_at_Home_Project","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":95926131,"extra":{"source_work_id":95926131}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":97968886}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/95926131/Virtual_Modeling_of_the_Elderly_to_Improve_Health_and_Wellbeing_Status_Experiences_in_the_Active_Ageing_at_Home_Project"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="1" data-entity-id="40769282" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/40769282/User_Modelling_in_Ambient_Intelligence_for_Elderly_and_Disabled_People">User Modelling in Ambient Intelligence for Elderly and Disabled People</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="47952025" href="https://independent.academia.edu/ArmandoRoyyarza">Armando Roy-yarza</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Lecture Notes in Computer Science, 2008</p><p class="ds2-5-body-sm ds-related-work--abstract ">Ambient Intelligence (AmI) characterizes a vision where humans are surrounded by computers. Combining ongoing technological developments (e.g. pervasive computing, wearable devices, sensor networks etc.) with user-centred design methods greatly increases the acceptance of the intelligent system and makes it more capable of providing a better quality of life in a non-intrusive way. Elderly people, with or without disabilities, could clearly benefit from this concept. Thanks to smart environments, they can experience considerable enhancements, giving them an opportunity to live more independently and for longer in their home rather than in a health-care centre. However, to implement such a system, it is essential to know for whom we are designing. Indeed, the system needs to know the users&#39; capabilities and behaviour in order to adapt itself and improve the interaction. Creating a user model based on the principal characteristics of the end-users will contribute positively in the development of the system&#39;s intelligence. In this paper, we present an intelligent system with a monitoring infrastructure that will help mainly elderly users with impairments to overcome their handicap. The purpose of such a system is to create a safe and intuitive environment that will facilitate the achievement of household tasks in order to preserve independence of elderly residents for a while longer. Pursuing this goal, we propose to use the persona concept to help us build a user model based on the personas&#39; aptitudes. The practice of user modelling emphasizes the importance of user-centred techniques in any AmI system development and highlights the potential impacts of AmI for certain targeted groups -in this case, the elderly and people with disabilities.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--2386ac3f"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":40769282,"extra":{"source_work_id":40769282}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--2386ac3f'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/40769282/User_Modelling_in_Ambient_Intelligence_for_Elderly_and_Disabled_People","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":40769282,"extra":{"source_work_id":40769282}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":61049028}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/40769282/User_Modelling_in_Ambient_Intelligence_for_Elderly_and_Disabled_People"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="2" data-entity-id="2513742" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/2513742/Ambient_Intelligence_for_the_Elderly_AmIE_An_Empowering_Way_of_Independent_Living_of_Elderly">Ambient Intelligence for the Elderly (AmIE): An Empowering Way of Independent Living of Elderly</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="3274273" href="https://independent.academia.edu/lclaeys">laurence claeys</a></div><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--1316a000"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":2513742,"extra":{"source_work_id":2513742}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--1316a000'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/2513742/Ambient_Intelligence_for_the_Elderly_AmIE_An_Empowering_Way_of_Independent_Living_of_Elderly","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":2513742,"extra":{"source_work_id":2513742}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":30529933}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/2513742/Ambient_Intelligence_for_the_Elderly_AmIE_An_Empowering_Way_of_Independent_Living_of_Elderly"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="3" data-entity-id="12716240" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/12716240/Ubiquitous_computing_and_AI_towards_an_inclusive_society">Ubiquitous computing and AI towards an inclusive society</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="31746213" href="https://independent.academia.edu/DanielGon%C3%A7alves29">Daniel Gonçalves</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Proceedings of the 2001 EC/NSF workshop on Universal accessibility of ubiquitous computing providing for the elderly - WUAUC&#39;01, 2001</p><p class="ds2-5-body-sm ds-related-work--abstract ">Elder citizens are faced with a large number of problems on their everyday lives. Loss of motor, sensorial and cognitive skills results in a growing difficulty to live and interact in today&#39;s society. Ubiquitous computing can help alleviate these problems, by allowing elders to have a normal life despite their shortcomings. Medical monitoring, communication and memory aids are already being developed. However, the large amount of data produced by those devices is of little use if not subject to some kind of analysis. Some Artificial Intelligence areas such as Knowledge Representation, Learning and Automated Planning can be used with success to improve what can be learned from the data, and open the door for a wide range of applications that will greatly improve the quality of life of elders.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--07501a39"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":12716240,"extra":{"source_work_id":12716240}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--07501a39'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/12716240/Ubiquitous_computing_and_AI_towards_an_inclusive_society","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":12716240,"extra":{"source_work_id":12716240}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":45982997}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/12716240/Ubiquitous_computing_and_AI_towards_an_inclusive_society"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="4" data-entity-id="70674011" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/70674011/A_Mobile_Virtual_Butler_to_Bridge_the_Gap_between_Users_and_Ambient_Assisted_Living_A_Smart_Home_Case_Study">A Mobile Virtual Butler to Bridge the Gap between Users and Ambient Assisted Living: A Smart Home Case Study</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="10909867" href="https://independent.academia.edu/NunoCosta10">Nuno Costa</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Sensors, 2014</p><p class="ds2-5-body-sm ds-related-work--abstract ">Ambient Intelligence promises to transform current spaces into electronic environments that are responsive, assistive and sensitive to human presence. Those electronic environments will be fully populated with dozens, hundreds or even thousands of connected devices that share information and thus become intelligent. That massive wave of electronic devices will also invade everyday objects, turning them into smart entities, keeping their native features and characteristics while seamlessly promoting them to a new class of thinking and reasoning everyday objects. Although there are strong expectations that most of the users&#39; needs can be fulfilled without their intervention, there are still situations where interaction is required. This paper presents work being done in the field of human-computer interaction, focusing on smart home environments, while being a part of a larger project called Aging Inside a Smart Home. This initiative arose as a way to deal with a large scourge of our country, where lots of elderly persons live alone in their homes, often with limited or no physical mobility. The project relies on the mobile agent computing paradigm in order to create a Virtual Butler that provides the interface between the elderly and the smart home infrastructure. The Virtual Butler is receptive to user questions, answering them according to the context and knowledge of the AISH. It is also capable of interacting with the user whenever it senses that something has gone wrong,</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--4d7cb65f"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":70674011,"extra":{"source_work_id":70674011}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--4d7cb65f'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/70674011/A_Mobile_Virtual_Butler_to_Bridge_the_Gap_between_Users_and_Ambient_Assisted_Living_A_Smart_Home_Case_Study","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":70674011,"extra":{"source_work_id":70674011}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":80326268}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/70674011/A_Mobile_Virtual_Butler_to_Bridge_the_Gap_between_Users_and_Ambient_Assisted_Living_A_Smart_Home_Case_Study"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="5" data-entity-id="75787548" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/75787548/Seeking_Prevention_of_Cognitive_Decline_in_Elders_via_Activity_Suggestion_by_A_Virtual_Caregiver">Seeking Prevention of Cognitive Decline in Elders via Activity Suggestion by A Virtual Caregiver</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="68169849" href="https://independent.academia.edu/MatteoLuperto">Matteo Luperto</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2018</p><p class="ds2-5-body-sm ds-related-work--abstract ">Addressing the lack of social, cognitive, and physical stimuli among elders is a key factor to contrast Mild Cognitive Impairment (MCI) that can arise during the third age. Against such background, agent-based technology has been applied to different application domains related to the assistance of elders. In this demo, we introduce an application of this kind: an activity center featuring social, cognitive, and physical activities targeted for elders. This activity center interacts with an autonomous agent, called Virtual Caregiver, residing in the cloud and generating interventions based on users&amp;#39; data. We show how the user experience can be enriched with an adaptive configuration encouraging socialization and cognitive training.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--d6781c3f"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":75787548,"extra":{"source_work_id":75787548}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--d6781c3f'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/75787548/Seeking_Prevention_of_Cognitive_Decline_in_Elders_via_Activity_Suggestion_by_A_Virtual_Caregiver","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":75787548,"extra":{"source_work_id":75787548}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":83419690}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/75787548/Seeking_Prevention_of_Cognitive_Decline_in_Elders_via_Activity_Suggestion_by_A_Virtual_Caregiver"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="6" data-entity-id="123980996" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/123980996/Framework_for_A_Personalized_Intelligent_Assistant_to_Elderly_People_for_Activities_of_Daily_Living">Framework for A Personalized Intelligent Assistant to Elderly People for Activities of Daily Living</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="290738246" href="https://sdsmt.academia.edu/NirmalyaThakur">Nirmalya Thakur</a></div><p class="ds-related-work--metadata ds2-5-body-xs">International Journal of Recent Trends in Human Computer Interaction (IJHCI), 2019</p><p class="ds2-5-body-sm ds-related-work--abstract ">The increasing population of elderly people is associated with the need to meet their increasing requirements and to provide solutions that can improve their quality of life in a smart home. In addition to fear and anxiety towards interfacing with systems; cognitive disabilities, weakened memory, disorganized behavior and even physical limitations are some of the problems that elderly people tend to face with increasing age. The essence of providing technology-based solutions to address these needs of elderly people and to create smart and assisted living spaces for the elderly; lies in developing systems that can adapt by addressing their diversity and can augment their performances in the context of their day to day goals. Therefore, this work proposes a framework for development of a Personalized Intelligent Assistant to help elderly people perform Activities of Daily Living (ADLs) in a smart and connected Internet of Things (IoT) based environment. This Personalized Intelligent Assistant can analyze different tasks performed by the user and recommend activities by considering their daily routine, current affective state and the underlining user experience. To uphold the efficacy of this proposed framework, it has been tested on a couple of datasets for modelling an &quot;average user&quot; and a &quot;specific user&quot; respectively. The results presented show that the model achieves a performance accuracy of 73.12% when modelling a &quot;specific user&quot;, which is considerably higher than its performance while modelling an &quot;average user&quot;, this upholds the relevance for development and implementation of this proposed framework.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--847c4cd0"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":123980996,"extra":{"source_work_id":123980996}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--847c4cd0'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/123980996/Framework_for_A_Personalized_Intelligent_Assistant_to_Elderly_People_for_Activities_of_Daily_Living","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":123980996,"extra":{"source_work_id":123980996}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":118292135}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/123980996/Framework_for_A_Personalized_Intelligent_Assistant_to_Elderly_People_for_Activities_of_Daily_Living"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="7" data-entity-id="2124583" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/2124583/IntouchFun_a_pervasive_collaborative_system_to_cope_with_elders_isolation_and_cognitive_decline">IntouchFun, a pervasive collaborative system to cope with elder&#39;s isolation and cognitive decline</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="2202158" href="https://uabc.academia.edu/AlbertoLMoran">Alberto L. Moran</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Proceedings of the  …, 2010</p><p class="ds2-5-body-sm ds-related-work--abstract ">Cognitive decline diseases, such as dementia, could be prevented through Cognitive Stimulation (CS). The integration of the members of the elder&quot;s social family network (SFN) in CS sessions can encourage the elder to perform CS activities. We designed InTouchFun, a pervasive CS collaborative system which eases interaction through natural interfaces and enables SFN members to interact with elders during their CS activities regardless of their physical location. An evaluation of our system provides evidence of a more accessible interaction of the elders with technology and of the importance and benefits of integrating SFN members as informal caregivers.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--e7fab44b"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":2124583,"extra":{"source_work_id":2124583}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--e7fab44b'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/2124583/IntouchFun_a_pervasive_collaborative_system_to_cope_with_elders_isolation_and_cognitive_decline","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":2124583,"extra":{"source_work_id":2124583}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":30183496}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/2124583/IntouchFun_a_pervasive_collaborative_system_to_cope_with_elders_isolation_and_cognitive_decline"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="8" data-entity-id="71069505" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/71069505/Creating_New_Technologies_for_Companionable_Agents_to_Support_Isolated_Older_Adults">Creating New Technologies for Companionable Agents to Support Isolated Older Adults</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="137908676" href="https://wpi.academia.edu/MahniShayganfar">Mahni Shayganfar</a></div><p class="ds-related-work--metadata ds2-5-body-xs">ACM Transactions on Interactive Intelligent Systems</p><p class="ds2-5-body-sm ds-related-work--abstract ">This article reports on the development of capabilities for (on-screen) virtual agents and robots to support isolated older adults in their homes. A real-time architecture was developed to use a virtual agent or a robot interchangeably to interact via dialog and gesture with a human user. Users could interact with either agent on 12 different activities, some of which included on-screen games, and forms to complete. The article reports on a pre-study that guided the choice of interaction activities. A month-long study with 44 adults between the ages of 55 and 91 assessed differences in the use of the robot and virtual agent.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--70744374"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":71069505,"extra":{"source_work_id":71069505}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--70744374'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/71069505/Creating_New_Technologies_for_Companionable_Agents_to_Support_Isolated_Older_Adults","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":71069505,"extra":{"source_work_id":71069505}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":80571757}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/71069505/Creating_New_Technologies_for_Companionable_Agents_to_Support_Isolated_Older_Adults"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="9" data-entity-id="74247009" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/74247009/The_Ambient_Adaptable_Living_Assistant_is_Meeting_its_Users">The Ambient Adaptable Living Assistant is Meeting its Users</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="124670259" href="https://scch.academia.edu/ChristophHinterm%C3%BCller">Christoph Hintermüller</a></div><p class="ds2-5-body-sm ds-related-work--abstract ">The need for communication is essential especially for elderly people living alone. In this paper, we introduce the current achievements of the ALIAS project which aims to create a robotic communication platform. This platform will enhance the social inclusion of elderly people by providing them a variety of services to stay in touch with their social environment. To realize this objective, two major tasks-technical development and user inclusion-have to be harmonized by bringing together experts from both fields. The technical realization for creating a robotic platform featuring a multimodal communication and an interactive behaviour raises challenges from different research directions covering audio and image processing, multimedia technology, human factors, control engineering, etc. The user inclusion has to tackle the problem that elderly people are a heterogeneous group with different wishes and needs. This goal is realized by applying different forms of user surveys ranging from questionnaires, interactive workshops and user trials.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--ef008e00"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":74247009,"extra":{"source_work_id":74247009}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--ef008e00'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/74247009/The_Ambient_Adaptable_Living_Assistant_is_Meeting_its_Users","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":74247009,"extra":{"source_work_id":74247009}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":82464017}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/74247009/The_Ambient_Adaptable_Living_Assistant_is_Meeting_its_Users"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div></div></div><div class="safe-sticky-ctas--container js-loswp-sticky-ctas hidden"><button class="ds2-5-button js-tc-loswp--continue-reading-button--sticky-ctas js-login-button--70b94783">See full PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--continue-reading-button--sticky-ctas","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--continue-reading-button--sticky-ctas');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--70b94783'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","clickTrackingContext":{"source":"loswp--continue-reading-button--sticky-ctas","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><button class="ds2-5-button ds2-5-button--secondary js-tc-loswp--download-pdf-button--sticky-ctas js-login-button--627b6d6f"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span>Download PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--download-pdf-button--sticky-ctas","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--download-pdf-button--sticky-ctas');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--627b6d6f'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People?auto=download","clickTrackingContext":{"source":"loswp--download-pdf-button--sticky-ctas","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Download your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue with your free download."},"emailLoginPage":{"subheader":"Log in to continue with your free download."},"emailRegistrationPage":{"subheader":"Sign up to continue with your free download.","submit":"Start Download"}},"registrationParams":{"user_source":"download","doc_id":104468156,"auto":"download"}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div><div class="ds-work--container js-loswp-embedded-document" id="loswp-embedded-document"><div class="attachment_preview" data-attachment="Attachment_104468156" style="display: none"><div class="js-scribd-document-container"><div class="scribd--document-loading js-scribd-document-loader" style="display: block;"><img alt="Loading..." src="//a.academia-assets.com/images/loaders/paper-load.gif" /><p>Loading Preview</p></div></div><div style="text-align: center;"><div class="scribd--no-preview-alert js-preview-unavailable"><p>Sorry, preview is currently unavailable. You can download the paper by clicking the button above.</p></div></div></div></div><div class="references--container"><h2 class="references--heading" id="references">References (28)</h2><ol class="ordered-list"><li class="ordered-list--item ds2-5-body-md">Acosta, J. N., Falcone, G. J., Rajpurkar, P. &amp; Topol, E. J. (2022). Multimodal biomedical AI. Nature Medicine, 28, 1773-1784. https://doi.org/10.1038/s41591-022-01981-2</li><li class="ordered-list--item ds2-5-body-md">Athar, A., Ali, S. M., Mozumder, M. A. I., Ali, S. &amp; Kim, H-C. (2023). Applications and Possible Challenges of Healthcare Metaverse. In Proceedings of the 2023 25 th International Conference on Advanced Communication Technology (ICACT). IEEE. https://doi.org/10.23919/ICACT56868.2023.10079314</li><li class="ordered-list--item ds2-5-body-md">Bertoa, M. F. , Moreno, N., Perez-Vereda, A., Bandera, D., Alvarez-Palomo, J. M. &amp; Canal, C. (2020). Digital Avatars: Promoting Independent Living for Older Adults. Wireless Communications and Mobile Computing, 2020. https://doi.org/10.1155/2020/8891002</li><li class="ordered-list--item ds2-5-body-md">Cao, Y., Li, S., Liu, Y., Yan, Z., Dai, Y., Yu, P. S. &amp; Sun, L. (2023). A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT. J. ACM, 37(4), 1-44. https://doi.org/10.48550/arXiv.2303.04226</li><li class="ordered-list--item ds2-5-body-md">Center for Research on Foundation Models (CRFM), Stanford Institute for Human-Centered Artificial Intelligence (HAI), Stanford University (2022). On the Opportunities and Risks of Foundation Models. https://doi.org/10.48550/arXiv.2108.07258 Electronic copy available at: https://ssrn.com/abstract=4489358</li><li class="ordered-list--item ds2-5-body-md">Damar, M. (2022). What the Literature on Medicine, Nursing, Public Health, Midwifery, and Dentistry Reveals: An Overview of the Rapidly Approaching Metaverse. Journal of Metaverse, 2(2), 62-70. https://doi.org/10.57019/jmv.1132962</li><li class="ordered-list--item ds2-5-body-md">Delveinsight. (2022). How Metaverse is Set to Transform the Healthcare Dynamics? https://www.delveinsight.com/blog/metaverse-in-healthcare</li><li class="ordered-list--item ds2-5-body-md">Duan, H., Li, J., Fan, S., Lin, Z., Wu, X. &amp; Cai, W. (2021). Metaverse for Social Good: A University Campus Prototype. In Proceedings of the 29th ACM International Conference on Multimedia (MM&#39;21). ACM. https://doi.org/10.1145/3474085.3479238</li><li class="ordered-list--item ds2-5-body-md">ElliQ. (2023). Introducing ElliQ. https://elliq.com</li><li class="ordered-list--item ds2-5-body-md">Feuerriegel, S., Hartmann, J., Janiesch, C. &amp; Zschech, P. (2023). Generative AI. SSRN, 1-25. http://dx.doi.org/10.2139/ssrn.4443189</li><li class="ordered-list--item ds2-5-body-md">Garavand, A. &amp; Aslani, N. (2022). Metaverse phenomenon and its impact on health: A scoping review. Informatics in Medicine Unlocked, 32, 1-6. https://doi.org/10.1016/j.imu.2022.101029</li><li class="ordered-list--item ds2-5-body-md">Jeon, J. H. (2021). A study on education utilizing metaverse for effective communication in a convergence subject. International Journal of Internet, Broadcasting and Communication, 13(4), 129-134.</li><li class="ordered-list--item ds2-5-body-md">LEE, L., Braud, T., Zhou, P., Wang, L., Xu, D., Lin, Z., Kumar, A., Bermejo, C. &amp; Hui, P. (2021). All One Needs to Know about Metaverse: A Complete Survey on Technological Singularity, Virtual Ecosystem, and Research Agenda. Journal of Latex Class Files. 14(8), 1-65. https://arxiv.org/abs/2110.05352</li><li class="ordered-list--item ds2-5-body-md">Li, Y., Li, Z., Zhang, K., Dan, R. &amp; Zhang, Y. (2023). ChatDoctor: A Medical ChatModel Fine-tumed on LLaMA Model using Medical Domain Knowledge. ADS, 1-7. 10.48550/arXiv.2303.14070</li><li class="ordered-list--item ds2-5-body-md">Merritt, R. (2023). What Are Foundation Models. https://blogs.nvidia.com/blog/2023/03/13/what-are- foundation-models Electronic copy available at: https://ssrn.com/abstract=4489358</li><li class="ordered-list--item ds2-5-body-md">Mitra, S. (2023). Metaverse: A Potential Virtual-Physical Ecosystem for Innovative Blended Education and Training. Journal of Metaverse, 66-72. https://doi.org/10.57019/jmv.1168056</li><li class="ordered-list--item ds2-5-body-md">Mozumder, M. A. S., Armand, T. P. T., Uddin, S. M. I., Athar, A., Sumon, R. I., Hussain, A. &amp; Kim, H. C. (2023). Metaverse for Digital Anti-Aging Healthcare: An Overview of Potential Use Cases Based on Artificial Intelligence, Blockchain, IoT Technologies, Its Challenges, and Future Directions. Applied Sciences, 13(8). https://doi.org/10.3390/app13085127</li><li class="ordered-list--item ds2-5-body-md">P &amp; S Intelligence. (2022). Living a Life beyond Imagination in the Meta (Uni)verse. https://www.psmarketresearch.com/blogs/metaverse</li><li class="ordered-list--item ds2-5-body-md">Qin, H. X. &amp; Hui, P. (2023). Empowering the Metaverse with Generative AI: Survey and Future Directions. https://www.researchgate.net/publication/370132434_Empowering_the_Metaverse_with_Gen erative_AI_Survey_and_Future_Directions</li><li class="ordered-list--item ds2-5-body-md">Rijmenum, M. V. (2023). Unleashing the Generative AI Genie in the Metaverse: A Brave New Metaverse or a Nightmare Scenario. https://www.thedigitalspeaker.com/unleashing-generative-ai-genie- brave-new-metaverse-nightmare-scenario</li><li class="ordered-list--item ds2-5-body-md">Rendever. (2023). Alcove Your family corner in VR. https://www.rendever.com/alcove</li><li class="ordered-list--item ds2-5-body-md">Seo, J. D. (2023). ChatGPT on steroids: Wolfram|Alpha Hack. https://medium.com/@jdseo/chatgpt-on-steroids-wolfram-alpha-hack-758d9b2d9f77</li><li class="ordered-list--item ds2-5-body-md">State, G. (2023). Rapidly Generate 3D Assets for Virtual World. https://developer.nvidia.com/blog/rapidly-generate-3d-assets-for-virtual-worlds-with-generative-ai Stuart, N. (2023). Generative AI in Social Care -can it help in an aging population? https://www.linkedin.com/pulse/generative-ai-social-care-can-help-aging-population-nielsen-marsh Tizro, A. (2023). Metaverse and Senior Citizens -Can Metaverse be a Solution to Isolation? https://vrmighty.com/metaverse-and-senior-citizens-can-metaverse-be-the-solution-to-isolation</li><li class="ordered-list--item ds2-5-body-md">Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L. &amp; Polosukhin, I. Electronic copy available at: https://ssrn.com/abstract=4489358</li><li class="ordered-list--item ds2-5-body-md">Attention Is All You Need. In Proceedings of the 31st Conference on Neural Information Processing Systems (NIPS 2017). Curran Associates Inc. https://doi.org/10.48550/arXiv.1706.03762</li><li class="ordered-list--item ds2-5-body-md">Wikipedia (2023). Generative pre-trained transformer. https://en.wikipedia.org/wiki/Generative_pre- trained_transformer</li><li class="ordered-list--item ds2-5-body-md">World Health Organization (2022). World Health Statistics 2022. Author.</li><li class="ordered-list--item ds2-5-body-md">Zhou, H., Gao, J. Y. &amp; Chen, Y. (2022). The paradigm and future value of the metaverse for the intervention of cognitive decline. Frontiers in Public Health, 10, 01-07. https://doi.org/10.3389/fpubh.2022.1016680 Electronic copy available at: https://ssrn.com/abstract=4489358</li></ol><button class="ds2-5-button ds2-5-button--extra-small ds2-5-button--full-width js-tc-loswp--references-view-more references--view-more-link" onclick="this.parentElement.classList.add(&#39;references--show-all&#39;);">View more<span class="material-symbols-outlined" style="font-size: 20px" translate="no">arrow_downward</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (button)';
+  }
+
+  const options = {"source":"loswp--references-view-more"};
+  const button = document.querySelector('.js-tc-loswp--references-view-more');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script></div><div class="work-faq--container"><div class="work-faq--heading-container"><h2 class="work-faq--heading ds2-5-heading-sans-serif-lg" id="faq">FAQs</h2><div class="ai-label"><img alt="sparkles" src="//a.academia-assets.com/images/icons/sparkle.svg" width="16" height="16" /><p class="ds2-5-body-xs">AI</p></div></div><div class="work-faq--list"><details class="work-faq--item" data-faq-number="1"><summary class="work-faq--question js-faq-question"><span class="work-faq--question-text" data-question="What role does Generative AI play in enhancing the metaverse for elderly support?">What role does Generative AI play in enhancing the metaverse for elderly support?</span><span class="material-symbols-outlined work-faq--icon" style="font-size: 16px" translate="no">add</span></summary><div class="work-faq--answer"><p class="ds2-5-body-md">The study reveals that Generative AI can create personalized and immersive virtual environments to assist elderly individuals, enhancing their companionship and overall experience. For instance, it enables the rapid development of virtual health clinics tailored to the needs of seniors.</p></div></details><details class="work-faq--item" data-faq-number="2"><summary class="work-faq--question js-faq-question"><span class="work-faq--question-text" data-question="How does the metaverse facilitate healthcare interactions for elderly individuals?">How does the metaverse facilitate healthcare interactions for elderly individuals?</span><span class="material-symbols-outlined work-faq--icon" style="font-size: 16px" translate="no">add</span></summary><div class="work-faq--answer"><p class="ds2-5-body-md">Metaverse platforms allow elderly people to interact with healthcare providers from home, providing convenient access to medical support. This approach reflects a shift towards remote consultations, reducing the necessity for physical visits.</p></div></details><details class="work-faq--item" data-faq-number="3"><summary class="work-faq--question js-faq-question"><span class="work-faq--question-text" data-question="What technological components are essential for a successful metaverse experience for seniors?">What technological components are essential for a successful metaverse experience for seniors?</span><span class="material-symbols-outlined work-faq--icon" style="font-size: 16px" translate="no">add</span></summary><div class="work-faq--answer"><p class="ds2-5-body-md">Key components include virtual reality and augmented reality technologies, alongside robust data integration and real-time 3D rendering capabilities. These technologies work together to ensure an immersive and engaging user experience.</p></div></details><details class="work-faq--item" data-faq-number="4"><summary class="work-faq--question js-faq-question"><span class="work-faq--question-text" data-question="What challenges does Generative AI face in the development of the metaverse?">What challenges does Generative AI face in the development of the metaverse?</span><span class="material-symbols-outlined work-faq--icon" style="font-size: 16px" translate="no">add</span></summary><div class="work-faq--answer"><p class="ds2-5-body-md">The deployment of Generative AI encounters challenges such as the need for diverse training data, scalability, and ensuring data privacy. Additionally, creating consistent and high-quality user experiences remains a significant hurdle.</p></div></details><details class="work-faq--item" data-faq-number="5"><summary class="work-faq--question js-faq-question"><span class="work-faq--question-text" data-question="What is the importance of digital twins in elderly care within the metaverse?">What is the importance of digital twins in elderly care within the metaverse?</span><span class="material-symbols-outlined work-faq--icon" style="font-size: 16px" translate="no">add</span></summary><div class="work-faq--answer"><p class="ds2-5-body-md">Digital twins facilitate real-time monitoring of elderly individuals&#39; health parameters, enabling personalized care solutions in the metaverse. This capability enhances healthcare outcomes by linking physical and digital health experiences seamlessly.</p></div></details></div></div><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (FAQ)';
+  }
+
+  const faqQuestions = document.querySelectorAll('.js-faq-question');
+  const numberedFaqs = [{"answer":"The study reveals that Generative AI can create personalized and immersive virtual environments to assist elderly individuals, enhancing their companionship and overall experience. For instance, it enables the rapid development of virtual health clinics tailored to the needs of seniors.","question":"What role does Generative AI play in enhancing the metaverse for elderly support?","number":1},{"answer":"Metaverse platforms allow elderly people to interact with healthcare providers from home, providing convenient access to medical support. This approach reflects a shift towards remote consultations, reducing the necessity for physical visits.","question":"How does the metaverse facilitate healthcare interactions for elderly individuals?","number":2},{"answer":"Key components include virtual reality and augmented reality technologies, alongside robust data integration and real-time 3D rendering capabilities. These technologies work together to ensure an immersive and engaging user experience.","question":"What technological components are essential for a successful metaverse experience for seniors?","number":3},{"answer":"The deployment of Generative AI encounters challenges such as the need for diverse training data, scalability, and ensuring data privacy. Additionally, creating consistent and high-quality user experiences remains a significant hurdle.","question":"What challenges does Generative AI face in the development of the metaverse?","number":4},{"answer":"Digital twins facilitate real-time monitoring of elderly individuals' health parameters, enabling personalized care solutions in the metaverse. This capability enhances healthcare outcomes by linking physical and digital health experiences seamlessly.","question":"What is the importance of digital twins in elderly care within the metaverse?","number":5}];
+  const workId = 104849902;
+
+  function trackFaqClick(faqNumber) {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        source: 'loswp--work-faq-question-clicked',
+        entity_id: workId,
+        extra: {
+          faq_number: faqNumber
+        },
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  }
+
+  faqQuestions.forEach((question) => {
+    question.addEventListener('click', () => {
+      const faqItem = question.closest('.work-faq--item');
+      const faqNumber = faqItem?.dataset.faqNumber;
+
+      if (faqNumber) {
+        trackFaqClick(parseInt(faqNumber));
+      }
+    });
+  });
+});</script></div><div class="right-rail--container"><div class="safe-right-rail--related-works"><h2 class="safe-related-content--heading">Related papers</h2><div class="safe-related-content--container" data-nosnippet=""><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="0" data-entity-id="25248247" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/25248247/Intelligent_Virtual_Companion_System_for_Independent_Living">Intelligent Virtual Companion System for Independent Living</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="48485924" href="https://gannon.academia.edu/SreelaSasi">Sreela Sasi</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Ic Ai, 2006</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">As people age, physical and mental abilities begin to degenerate. This often leads to disabilities. Many family members may not always be able to help the elderly, and home medical care can be discouragingly expensive. Currently, there are existing agencies that provide companionship services for the elderly by sending hired staff to the homes of elderly people who choose to live independently.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--01b89025"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":25248247,"extra":{"source_work_id":25248247}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--01b89025'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/25248247/Intelligent_Virtual_Companion_System_for_Independent_Living","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":25248247,"extra":{"source_work_id":25248247}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":45553736}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/25248247/Intelligent_Virtual_Companion_System_for_Independent_Living"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="1" data-entity-id="30336713" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/30336713/Living_Home_Center_a_personal_assistant_with_multimodal_interaction_for_elderly_and_mobility_impaired_e_inclusion">Living Home Center -a personal assistant with multimodal interaction for elderly and mobility impaired e-inclusion</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="23681271" href="https://independent.academia.edu/CarlosPires11">Carlos  Pires</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2012</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">This paper presents an application that allows mobility impaired and elderly users to interact with Internet-based audio-visual communication services, using multimodal natural user interaction. This platform, referred to as Living Home Center, operates on a large Windows-based touchscreen and also on a Windows Phone 7 smartphone. The platform is aware of user characteristics, such as the user&#39;s visual or hearing impairments levels, as well as environmental characteristics, like environmental noise or lighting conditions, self-adapting Graphical User Interface (GUI) components, screen brightness, audio volume and other application interface details that affect the user experience, according to these characteristics. The goal of this application is to improve the target users&#39; interactive experience with audio-visual communication services, thus contributing to the reduction of their social isolation and improving their digital inclusion.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--dab3947a"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":30336713,"extra":{"source_work_id":30336713}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--dab3947a'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/30336713/Living_Home_Center_a_personal_assistant_with_multimodal_interaction_for_elderly_and_mobility_impaired_e_inclusion","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":30336713,"extra":{"source_work_id":30336713}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":50790421}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/30336713/Living_Home_Center_a_personal_assistant_with_multimodal_interaction_for_elderly_and_mobility_impaired_e_inclusion"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="2" data-entity-id="75787569" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/75787569/A_Virtual_Caregiver_for_Assisted_Daily_Living_of_Pre_frail_Users">A Virtual Caregiver for Assisted Daily Living of Pre-frail Users</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="68169849" href="https://independent.academia.edu/MatteoLuperto">Matteo Luperto</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Lecture Notes in Computer Science, 2020</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">As Europe sees its population aging dramatically, Assisted Daily Living for the elderly becomes a more and more important and relevant research topic. The Movecare Project focuses on this topic by integrating a robotic platform, an IoT system, and an activity center to provide assistance, suggestions of activities and transparent monitoring to users at home. In this paper, we describe the Virtual Caregiver, a software component of the Movecare platform, that is responsible for analyzing the data from the various modules and generating suggestions tailored to the user&#39;s state and needs. A preliminary study has been carried on over 2 months with 15 users. This study suggests that the presence of the Virtual Caregiver encourages people to use the Movecare platform more consistently, which in turn could result in better monitoring and prevention of cognitive and physical decline.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--cd151906"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":75787569,"extra":{"source_work_id":75787569}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--cd151906'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/75787569/A_Virtual_Caregiver_for_Assisted_Daily_Living_of_Pre_frail_Users","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":75787569,"extra":{"source_work_id":75787569}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":83419710}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/75787569/A_Virtual_Caregiver_for_Assisted_Daily_Living_of_Pre_frail_Users"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="3" data-entity-id="118004441" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/118004441/A_cross_cultural_study_on_responsible_AI_innovation_in_the_homecare_of_people_with_dementia">A cross-cultural study on responsible AI innovation in the homecare of people with dementia</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="36570780" href="https://uu.academia.edu/EllenMoors">Ellen Moors</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Gerontechnology, 2022</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Purpose The world is facing similar challenges in respect to the ageing population and shortages of care personnel, with dementia as one of the largest challenges (Gauthier et al., 2021). Across Europe and beyond, various dementia friendly ecosystems are in place with Active and Assisted Living (AAL) products and services to empower people with dementia (PwD) and their informal-and formal carers (Nap et al., 2018; Nap et al., 2020). However, it can be burdensome for (informal) carers to use multiple devices, applications and UI&#39;s, and particularly in carewhere workload is highbandwidth is limited to use multiple devices. With the HAAL project, The Netherlands, Italy, and Taiwan combine their expertise and experiences in development, co-design and evaluation to iteratively design an AI-driven cloud-based dashboard for formal carers to share data, collected from integrated sensors, that measure the well-being and quality of life of PwD. The dashboard is linked to a state-of-the-art bundle of HAAL products and services for PwD in various stages (see Reisberg et al., 1982) and their (informal)carers (see Figure 1.). Method All end-users are involved from the start of the HAAL project in co-design, business modelling, responsible innovation (Lukkien et al, 2021) and during the evaluation in the later phases of the project. Over 75 end-users will be involved in co-design, meaningful try-outs and formative evaluations. In the final summative evaluation, 90 end-users will be involved in 3 pilots (30 per country), consisting of triads of PwD, their informal and formal carers with a major focus on evaluating workload of carers and quality of life of PwD. Results and Discussion The first results from the co-design phases and meaningful try-outs show that formal carers are positive about a central AI-driven dashboard, as well as about a number of products and services in the HAAL bundle. In Taiwan, PwD were also involved in trying out the products and they showed their interest mainly in serious games and social robotics. In addition, within the HAAL project, a first UI design of the AI-driven dashboard has been iteratively developed, along with the software and the hardware architecture. Responsible innovation workshops supported in an early critical assessment of the merits and perils of AI in care for PwD. In HAAL, PwD, their relatives, and care professionals are the focal point for the testing, development, and design. In the following phases of the HAAL project, we will further co-design with these groups to assess the bundle of selected technologies, learn from the best practices and eventually develop and evaluate the AI-driven dashboard that offers the most useful solutions for dementia care.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--b10d3197"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":118004441,"extra":{"source_work_id":118004441}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--b10d3197'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/118004441/A_cross_cultural_study_on_responsible_AI_innovation_in_the_homecare_of_people_with_dementia","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":118004441,"extra":{"source_work_id":118004441}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":113730632}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/118004441/A_cross_cultural_study_on_responsible_AI_innovation_in_the_homecare_of_people_with_dementia"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="4" data-entity-id="23001809" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/23001809/Dazed_and_confused_considered_normal_An_approach_to_create_interactive_systems_for_people_with_dementia">Dazed and confused considered normal: An approach to create interactive systems for people with dementia</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="5964692" href="https://independent.academia.edu/JanVandenBergh">Jan Van den Bergh</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2010</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">In Western society, the elderly represent a rapidly growing demographic group. For this group, dementia has become an important cause of dependencies on others and causes difficulties with independent living. Typical symptoms of the dementia syndrome are decreased location awareness and difficulties in situating ones activities in time, thus hindering long term plans and activities. We present our approach in creating an interactive system tailored for the needs of the early phases of the dementia syndrome. Given the increasing literacy with mobile technologies in this group, we propose an approach that exploits mobile technology in combination with the physical and social context to support prolonged independent living. Our system strengthens the involvement of caregivers through the patient&#39;s social network. We show that applications for people suffering from dementia can be created by explicitly taking into account context in the design process. Context dependencies that are defined in an early stage in the development process are propagated as part of the runtime behavior of the interactive system.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--41796159"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":23001809,"extra":{"source_work_id":23001809}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--41796159'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/23001809/Dazed_and_confused_considered_normal_An_approach_to_create_interactive_systems_for_people_with_dementia","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":23001809,"extra":{"source_work_id":23001809}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":43515349}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/23001809/Dazed_and_confused_considered_normal_An_approach_to_create_interactive_systems_for_people_with_dementia"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="5" data-entity-id="48589286" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/48589286/Digital_Avatars_Promoting_Independent_Living_for_Older_Adults">Digital Avatars: Promoting Independent Living for Older Adults</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="60128946" href="https://independent.academia.edu/ManuelFBertoa">Manuel F. Bertoa</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Wireless Communications and Mobile Computing</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Population ageing, together with the desire to maintain an autonomous lifestyle, poses today’s societies with a challenge that technological advances can help considerably to cope with. The widespread use of smartphones and their increasing computing power and storage capacity make them the ideal tool to achieve this goal. In this paper, we present Digital Avatars, a software framework adapted to the needs of older adults who wish to preserve their lifestyle, but who require assistance through technology. Building on previous work on the People as a Service model, Digital Avatars takes advantage of a smartphone’s capabilities and services to collect information about the people who own them. To do this, it applies Complex Event Processing techniques extended with uncertainty to infer the habits, preferences, and needs of the device owner to build with them an enhanced virtual profile of the user. These virtual profiles are the mechanism for monitoring the quality of life of older ad...</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--d6c918d8"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":48589286,"extra":{"source_work_id":48589286}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--d6c918d8'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/48589286/Digital_Avatars_Promoting_Independent_Living_for_Older_Adults","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":48589286,"extra":{"source_work_id":48589286}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":67122487}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/48589286/Digital_Avatars_Promoting_Independent_Living_for_Older_Adults"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="6" data-entity-id="79864680" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/79864680/A_context_aware_environment_for_independent_living_elders_sup_1_sup_">A context-aware environment for independent living elders&lt;sup&gt;1&lt;/sup&gt;</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="134568173" href="https://ntust.academia.edu/ShengLuenChung">Sheng-Luen Chung</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Signal and Information Processing Association Annual Summit and Conference (APSIPA), 2014 Asia-Pacific, 2014</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Elder care poses an increasingly demanding issue that every aging society has to address. The notion of Ambient Assisted Living aims to solve the issue by promoting the idea of ageing at home through innovative ICT technology. The core technology relies on the real-time identification of occupant&#39;s status and prompt notification to supporting service providers before pertinent measures can be taken. This study proposes an enabling solution that converts general household setting into a context-aware environment geared for elder care: normal activities are automatically updated at Facebook news feed, and alerting conditions are instantly notified to emergency contact by Google Cloud Messages. I.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--9ef235c2"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":79864680,"extra":{"source_work_id":79864680}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--9ef235c2'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/79864680/A_context_aware_environment_for_independent_living_elders_sup_1_sup_","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":79864680,"extra":{"source_work_id":79864680}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":86436261}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/79864680/A_context_aware_environment_for_independent_living_elders_sup_1_sup_"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="7" data-entity-id="64973464" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/64973464/Ambient_intelligence_in_assisted_living_enable_elderly_people_to_handle_future_interfaces">Ambient intelligence in assisted living: enable elderly people to handle future interfaces</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="12892904" href="https://uni-kl.academia.edu/PaulMueller">Paul Mueller</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2007</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Ambient Assisted Living is currently one of the important research and development areas, where accessibility, usability and learning plays a major role and where future interfaces are an important concern for applied engineering. The general goal of ambient assisted living solutions is to apply ambient intelligence technology to enable people with specific demands, e.g. handicapped or elderly, to live in their preferred environment longer. Due to the high potential of emergencies, a sound emergency assistance is required, for instance assisting elderly people with comprehensive ambient assisted living solutions sets high demands on the overall system quality and consequently on software and system engineering-user acceptance and support by various userinterfaces is an absolute necessity. In this article, we present an Assisted Living Laboratory that is used to train elderly people to handle modern interfaces for Assisted Living and evaluate the usability and suitability of these interfaces in specific situations, e.g., emergency cases.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--693e2e8c"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (text button link)';
+  }
+
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":64973464,"extra":{"source_work_id":64973464}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--693e2e8c'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/64973464/Ambient_intelligence_in_assisted_living_enable_elderly_people_to_handle_future_interfaces","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"outline","entity_id":64973464,"extra":{"source_work_id":64973464}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":76761108}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/64973464/Ambient_intelligence_in_assisted_living_enable_elderly_people_to_handle_future_interfaces"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><button class="ds2-5-text-link ds2-5-text-link--inline safe-related-works--view-more-button js-safe-related-works-related-work--view-more-button"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">keyboard_arrow_down</span><span class="ds2-5-text-link__content">View more papers</span></button></div></div><div class="safe-related-topics--container"><h2 class="safe-related-topics--heading">Related topics</h2><div class="safe-related-topics--list"><div class="safe-related-topics--subgroup"><li class="safe-related-topics--list-item"><a class="ds2-5-body-sm ds2-5-body-link js-related-research-interest" data-entity_id="4201061" href="https://www.academia.edu/Documents/in/Generative_AI">Generative AI</a><button class="ds-pill-button ds-pill-button--small js-tc-loswp--related-topics--follow js-login-button--00e7dee4 safe-related-topics--pill"><span class="material-symbols-outlined" style="font-size: 16px" translate="no">add</span>Follow</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (pill button)';
+  }
+
+  const options = {"source":"loswp--related-topics--follow","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--related-topics--follow');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--00e7dee4'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/Documents/in/Generative_AI","clickTrackingContext":{"source":"loswp--related-topics--follow","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Follow topics to stay up-to-date"},"emailEntryPage":{"subheader":"Sign up or log in to follow this topic."},"emailLoginPage":{"subheader":"Log in to follow this topic."},"emailRegistrationPage":{"subheader":"Sign up to follow this topic."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></li></div><div class="safe-related-topics--subgroup"><li class="safe-related-topics--list-item"><a class="ds2-5-body-sm ds2-5-body-link js-related-research-interest" data-entity_id="4240030" href="https://www.academia.edu/Documents/in/Large_language_models">Large language models</a><button class="ds-pill-button ds-pill-button--small js-tc-loswp--related-topics--follow js-login-button--7f84ca1d safe-related-topics--pill"><span class="material-symbols-outlined" style="font-size: 16px" translate="no">add</span>Follow</button><script>document.addEventListener('DOMContentLoaded', () => {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  const csrfToken = document.querySelector("[name='csrf-token']")?.content ??
+    getCookie('masked_csrf_token');
+  if (!csrfToken) {
+    throw 'click tracking disabled due to missing CSRF token (pill button)';
+  }
+
+  const options = {"source":"loswp--related-topics--follow","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}};
+  const button = document.querySelector('.js-tc-loswp--related-topics--follow');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--7f84ca1d'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/Documents/in/Large_language_models","clickTrackingContext":{"source":"loswp--related-topics--follow","bucket":"outline","entity_id":104849902,"extra":{"source_work_id":104849902}},"configuredText":{"buttonsPage":{"header":"Follow topics to stay up-to-date"},"emailEntryPage":{"subheader":"Sign up or log in to follow this topic."},"emailLoginPage":{"subheader":"Log in to follow this topic."},"emailRegistrationPage":{"subheader":"Sign up to follow this topic."}},"registrationParams":{"user_source":"download","doc_id":104468156}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></li></div></div></div></div></div><script type="application/json" id="js-react-on-rails-context">{"componentRegistryTimeout":5000,"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","rorVersion":"16.1.2","rorPro":true,"rorProVersion":"3.3.1","href":"https://www.academia.edu/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","location":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","scheme":"https","host":"www.academia.edu","port":null,"pathname":"/104849902/Generative_AI_and_Metaverse_Companionship_and_Assisted_Living_for_Elderly_People","search":null,"httpAcceptLanguage":"en-US,en;q=0.5","autoProps":{},"serverSide":false}</script>
+<div id="LoginModalManager-react-component-91c06047-cf66-4e49-ba27-6d24a0438766"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-LoginModalManager-react-component-91c06047-cf66-4e49-ba27-6d24a0438766" data-component-name="LoginModalManager" data-dom-id="LoginModalManager-react-component-91c06047-cf66-4e49-ba27-6d24a0438766">{}</script><script>window.qualarooInitialization = {"route__controller":"single_work","route__action":"show","user_id":"auvid_MTc2Njk3ODYwNDcxODowLjg1MjI1NzM5ODE1NTkwNTI=","premium":null,"author":null,"country":null,"is_faculty":false,"over_1_week_old":null,"account_age_in_days":null,"role":null,"is_author":null,"is_published":false,"num_works_uploaded":null,"in_ehcc":false,"in_hcc":false,"in_row":false,"premium_age_in_days":null,"num_premium_sessions":null}</script>
+
+        <div class="about-footer-container"><div class="footer-grid"><div class="links-row"><div class="text-column"><div class="academia-logo"><a href="https://www.academia.edu/"><img alt="Academia" src="//a.academia-assets.com/images/design_system/academia_logo_short_white.svg" /></a></div></div><div class="responsive-two-column-container"><div class="inner-two-column-container"><ul class="single-column"><li class="header">Explore</li><li><a href="https://www.academia.edu/documents">Papers</a></li><li><a href="https://www.academia.edu/topics">Topics</a></li></ul><ul class="single-column"><li class="header">Features</li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fmentions">Mentions</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fanalytics">Analytics</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fresearch">PDF Packages</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fsearch%2Fadvanced">Advanced Search</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fsaved_searches">Search Alerts</a></li></ul></div><div class="inner-two-column-container"><ul class="single-column"><li class="header">Journals</li><li><a href="https://www.academia.edu/journals">Academia.edu Journals</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fjournals%2Fsubmissions">My submissions</a></li><li><a href="https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fjournals%2Fsubmissions%23reviewer%2Finvitations">Reviewer Hub</a></li><li><a href="https://www.academia.edu/journals/about/why-publish-with-us">Why publish with us</a></li><li><a href="https://www.academia.edu/journals/about/testimonials">Testimonials</a></li></ul><ul class="single-column"><li class="header">Company</li><li><a href="https://www.academia.edu/about">About</a></li><li><a href="https://www.academia.edu/hiring">Careers</a></li><li><a href="https://www.academia.edu/press">Press</a></li><li><a href="https://support.academia.edu/hc/en-us">Help Center</a></li><li><a href="https://www.academia.edu/terms">Terms</a></li><li><a href="https://www.academia.edu/privacy">Privacy</a></li><li><a href="https://www.academia.edu/copyright">Copyright</a></li><li><a href="https://www.academia.edu/content_policy">Content Policy</a></li></ul></div></div></div><div class="subfooter-row"><div class="academia-logo"><a href="https://www.academia.edu/"><img alt="Academia" src="//a.academia-assets.com/images/design_system/academia_logo_white.svg" /></a></div><div class="text"><div>580 California St., Suite 400</div><div>San Francisco, CA, 94104</div></div><div class="text"><div><a href="https://www.academia.edu/copyright">© 2025 Academia. All rights reserved</a></div></div></div></div></div>
+
+    </body>
+  </html>
