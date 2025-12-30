@@ -1,0 +1,9 @@
+filename,src_url,pdf_url,status,reason,final_url,http_code
+0096.pdf,https://www.mdpi.com/2076-328X/14/10/923,https://www.mdpi.com/2076-328X/14/10/923/pdf,FAIL,HTTP_403,https://www.mdpi.com/2076-328X/14/10/923/pdf,403
+0115.pdf,https://www.mdpi.com/2304-6775/13/3/33,https://www.mdpi.com/2304-6775/13/3/33/pdf,FAIL,HTTP_403,https://www.mdpi.com/2304-6775/13/3/33/pdf,403
+0154.pdf,https://www.mdpi.com/2078-2489/16/9/796,https://www.mdpi.com/2078-2489/16/9/796/pdf,FAIL,HTTP_403,https://www.mdpi.com/2078-2489/16/9/796/pdf,403
+0158.pdf,https://www.mdpi.com/2079-8954/13/10/882,https://www.mdpi.com/2079-8954/13/10/882/pdf,FAIL,HTTP_403,https://www.mdpi.com/2079-8954/13/10/882/pdf,403
+0214.pdf,https://www.mdpi.com/2673-2688/6/5/100,https://www.mdpi.com/2673-2688/6/5/100/pdf,FAIL,HTTP_403,https://www.mdpi.com/2673-2688/6/5/100/pdf,403
+0231.pdf,https://www.mdpi.com/2079-3200/13/5/55,https://www.mdpi.com/2079-3200/13/5/55/pdf,FAIL,HTTP_403,https://www.mdpi.com/2079-3200/13/5/55/pdf,403
+0290.pdf,https://www.mdpi.com/2079-3200/13/7/80,https://www.mdpi.com/2079-3200/13/7/80/pdf,FAIL,HTTP_403,https://www.mdpi.com/2079-3200/13/7/80/pdf,403
+0300.pdf,https://www.mdpi.com/2071-1050/16/3/1166,https://www.mdpi.com/2071-1050/16/3/1166/pdf,FAIL,HTTP_403,https://www.mdpi.com/2071-1050/16/3/1166/pdf,403
