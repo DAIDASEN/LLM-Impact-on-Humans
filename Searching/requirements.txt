@@ -5,4 +5,10 @@ scholarly>=1.7.11
 scikit-learn>=1.4.0
 sentence-transformers>=3.0.0
 
+# LLM pipeline (PDF -> text -> OpenAI)
+openai>=1.40.0
+pypdf>=5.0.0
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+
 
