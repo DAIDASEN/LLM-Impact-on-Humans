@@ -91,9 +91,28 @@ def main() -> None:
 
     # Merge into a flat CSV for inspection
     if not base_df.empty and "filename" in base_df.columns:
-        merged = base_df.merge(s1_df, on="filename", how="left").merge(s2_df, on="filename", how="left")
+        merged = base_df.merge(s1_df, on="filename", how="left", suffixes=("", "_s1")).merge(
+            s2_df, on="filename", how="left", suffixes=("", "_s2")
+        )
     else:
         merged = s1_df.merge(s2_df, on="filename", how="outer")
+
+    # If the input CSV already had stage columns, consolidate to a single canonical column.
+    def coalesce(col: str, fallbacks: list[str]) -> None:
+        if col in merged.columns:
+            return
+        for fb in fallbacks:
+            if fb in merged.columns:
+                merged[col] = merged[fb]
+                return
+
+    # Common conflicts when base CSV already has these columns.
+    coalesce("stage1_is_paper", ["stage1_is_paper_s1", "stage1_is_paper_x", "stage1_is_paper_y"])
+    coalesce("stage1_is_match", ["stage1_is_match_s1", "stage1_is_match_x", "stage1_is_match_y"])
+    coalesce("stage1_error", ["stage1_error_s1"])
+    coalesce("stage2_cluster_id", ["stage2_cluster_id_s2", "stage2_cluster_id_x", "stage2_cluster_id_y"])
+    coalesce("stage2_custom_summary", ["stage2_custom_summary_s2"])
+    coalesce("stage2_error", ["stage2_error_s2"])
 
     merged_out = out_dir / "summary_step1_step2_merged.csv"
     merged.to_csv(merged_out, index=False, encoding="utf-8-sig")

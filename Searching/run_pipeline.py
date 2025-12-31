@@ -25,9 +25,13 @@ def _curate_pdfs(
 ) -> None:
     """
     mode:
+      - "none": do nothing (no extra disk usage)
       - "copy": copy PDFs into curated_dir
       - "move": move PDFs into curated_dir (destructive)
+      - "hardlink": create hardlinks into curated_dir (almost no extra disk usage; same drive required)
     """
+    if mode == "none":
+        return
     ensure_dir(curated_dir)
     for fn in tqdm(df["filename"].astype(str).tolist(), desc="Curating PDFs"):
         src = papers_dir / fn
@@ -38,7 +42,15 @@ def _curate_pdfs(
             continue
         if mode == "move":
             shutil.move(str(src), str(dst))
-        else:
+        elif mode == "hardlink":
+            try:
+                # Hardlink requires same filesystem/drive; if it fails, fall back to copy.
+                import os
+
+                os.link(src, dst)
+            except Exception:
+                shutil.copy2(str(src), str(dst))
+        else:  # copy
             shutil.copy2(str(src), str(dst))
 
 
@@ -48,7 +60,7 @@ def main() -> None:
     ap.add_argument("--papers_dir", default="papers")
     ap.add_argument("--work_dir", default="llm_outputs")
     ap.add_argument("--curated_dir", default="papers_curated")
-    ap.add_argument("--curate_mode", choices=["copy", "move"], default="copy")
+    ap.add_argument("--curate_mode", choices=["none", "copy", "move", "hardlink"], default="none")
     ap.add_argument("--inplace", action="store_true", help="Overwrite papers.csv in-place (creates .bak)")
     args = ap.parse_args()
 

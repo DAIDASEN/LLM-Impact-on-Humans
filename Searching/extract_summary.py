@@ -32,16 +32,37 @@ def _load_cluster_map(screen_jsonl: Path) -> dict[str, dict]:
     return m
 
 
+def _load_stage1_pass_map(stage1_jsonl: Path) -> dict[str, bool]:
+    """
+    filename -> True/False where True means (is_paper==True and is_match==True)
+    Missing filenames are not included.
+    """
+    m = load_result_map_by_filename(stage1_jsonl)
+    out: dict[str, bool] = {}
+    for fn, res in m.items():
+        try:
+            out[fn] = bool(res.get("is_paper") is True and res.get("is_match") is True)
+        except Exception:
+            continue
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Stage 3: extract structured human-impact summary based on cluster assignment.")
     ap.add_argument("--csv", default="papers.csv")
     ap.add_argument("--papers_dir", default="papers")
+    ap.add_argument("--stage1_jsonl", default="llm_outputs/validate.jsonl", help="Step1 output jsonl for gating Step3")
     ap.add_argument("--screen_jsonl", default="llm_outputs/screen_cluster.jsonl")
     ap.add_argument("--out", default="llm_outputs/extract_summary.jsonl")
     ap.add_argument("--resume", action="store_true", help="Skip filenames already present in --out")
     ap.add_argument("--csv_out", default="", help="Write an enriched CSV with stage3 (nested JSON) column")
     ap.add_argument("--inplace", action="store_true", help="If set, overwrite --csv (creates a .bak)")
     ap.add_argument("--only_included", action="store_true", help="Only run for cluster_id in {0,1,2,3,4}")
+    ap.add_argument(
+        "--require_step1_pass",
+        action="store_true",
+        help="Require Step1 (is_paper==True and is_match==True) before running Step3",
+    )
     ap.add_argument("--limit", type=int, default=0, help="0 means no limit")
     ap.add_argument("--start", type=int, default=0)
     ap.add_argument("--head_pages", type=int, default=4)
@@ -53,6 +74,7 @@ def main() -> None:
     out_path = Path(args.out)
     ensure_dir(out_path.parent)
 
+    stage1_pass = _load_stage1_pass_map(Path(args.stage1_jsonl)) if args.require_step1_pass else {}
     cluster_map = _load_cluster_map(Path(args.screen_jsonl))
 
     df = pd.read_csv(args.csv)
@@ -69,6 +91,18 @@ def main() -> None:
             rec = SearchRecord.from_pandas_row(r)
             if rec.filename in processed:
                 continue
+
+            if args.require_step1_pass:
+                if stage1_pass.get(rec.filename) is not True:
+                    row = {
+                        "row_id": rec.row_id,
+                        "filename": rec.filename,
+                        "skipped": True,
+                        "reason": "step1_not_passed",
+                        "result": None,
+                    }
+                    f.write(json_dumps(row) + "\n")
+                    continue
 
             assign = cluster_map.get(rec.filename)
             if not assign:

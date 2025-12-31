@@ -3,7 +3,12 @@
 你设计的流程是：
 - **Stage 1**（`validate_paper.py`）：判断 `PDF_TEXT` 是否像论文，并校验题目/作者与 `SEARCH_RECORD` 是否匹配。
 - **Stage 2**（`screen_cluster.py`）：严格实证筛选（是否“LLM 对人影响”的实证研究），并分到簇（0-3/4/-1）。
-- **Stage 3**（`extract_summary.py`）：在 Stage 2 的簇结果基础上，只抽取“LLM 对人影响”的结构化信息。
+- **Stage 3**（`extract_summary.py`）：只对满足门槛的论文抽取“LLM 对人影响”的结构化信息（见下方门槛）。
+
+推荐使用 **方案A（不复制 PDF，不创建 `papers_curated/` 目录）**：
+- Stage 1 通过后，只生成一个“子集 CSV”（`llm_outputs/papers_curated.csv`）
+- Stage 2/3 继续从原始 `papers/` 读取 PDF
+- 好处：**不重复占用磁盘空间**
 
 ### 0) 安装依赖
 
@@ -26,29 +31,46 @@ OPENAI_API_KEY=你的key
 OPENAI_MODEL=gpt-5
 ```
 
-### 2) 运行 Stage 1：论文 + 匹配校验
+### 2) 运行 Stage 1：论文 + 匹配校验（可断点续跑）
 
 ```bash
-python validate_paper.py --csv papers.csv --papers_dir papers --out llm_outputs/validate.jsonl
+python validate_paper.py --resume --csv papers.csv --papers_dir papers --out llm_outputs/validate.jsonl --inplace
 ```
 
-### 3) 运行 Stage 2：实证筛选 + 聚类
+### 3) 生成子集 CSV（方案A：不复制PDF）
 
 ```bash
-python screen_cluster.py --csv papers.csv --papers_dir papers --out llm_outputs/screen_cluster.jsonl
+# 默认不会复制/移动 PDF，只会生成 llm_outputs/papers_curated.csv（文件名沿用，实际不需要 papers_curated/ 目录）
+python run_pipeline.py --curate_mode none
 ```
 
-### 4) 运行 Stage 3：信息抽取（依赖 Stage 2 输出）
+生成的子集 CSV：
+- `llm_outputs/papers_curated.csv`（仅包含 Stage1 通过：is_paper==True 且 is_match==True 的论文）
 
-只对纳入（cluster_id != -1）的论文抽取：
+### 4) 运行 Stage 2：实证筛选 + 聚类（只跑子集，且仍从 papers/ 读 PDF）
 
 ```bash
-python extract_summary.py --csv papers.csv --papers_dir papers --screen_jsonl llm_outputs/screen_cluster.jsonl --out llm_outputs/extract_summary.jsonl --only_included
+python screen_cluster.py --resume --csv llm_outputs/papers_curated.csv --papers_dir papers --out llm_outputs/screen_cluster.jsonl
 ```
 
-### 5) 输出说明
+### 5) 运行 Stage 3：信息抽取（依赖 Stage 1 + Stage 2 输出）
 
-所有输出都是 `jsonl`（一行一个 JSON），方便你后续用 pandas 读回去再转 CSV：
+Stage 3 门槛（必须同时满足）：
+- Stage 1：`is_paper == True` 且 `is_match == True`
+- Stage 2：`cluster_id != -1`（不为 Excluded）
+
+```bash
+python extract_summary.py --resume --csv llm_outputs/papers_curated.csv --papers_dir papers --stage1_jsonl llm_outputs/validate.jsonl --screen_jsonl llm_outputs/screen_cluster.jsonl --out llm_outputs/extract_summary.jsonl --only_included --require_step1_pass
+```
+
+### 6) 输出说明（最后看哪个）
+
+所有输出都是 `jsonl`（一行一个 JSON），方便你后续用 pandas 读回去再转 CSV。
+
+你通常最终看：
+- `llm_outputs/extract_summary.jsonl`（Stage 3 的结构化抽取结果）
+
+读回示例：
 
 ```python
 import pandas as pd
