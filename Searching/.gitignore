@@ -10,4 +10,14 @@ __pycache__/
 # Outputs
 llm_outputs/
 
+# Large datasets / PDFs (recommend keep out of Git; use scripts or Git LFS if needed)
+papers/
+papers_arxiv/
+arxiv_pipeline_outputs/
+ieee_pipeline_outputs/
+embeddings.npy
+
+# Optional: ignore downloaded/temporary artifacts
+papers_bad/
+
 

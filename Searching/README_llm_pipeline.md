@@ -10,6 +10,30 @@
 - Stage 2/3 继续从原始 `papers/` 读取 PDF
 - 好处：**不重复占用磁盘空间**
 
+### （可选）arXiv 新增论文的增量流程（独立于 Google Scholar）
+
+如果你有新的 arXiv 论文列表在 `search_ieee_pipeline/sources/arxiv/papers_for_pipeline_arxiv.csv`，可以用增量方式导入并只处理“新增的、未处理过的”：
+
+#### A) 导入 + 下载 arXiv PDF（只新增）
+
+```bash
+python ingest_arxiv_new.py --download
+```
+
+会生成：
+- `papers_arxiv.csv`（arXiv 数据集）
+- `papers_arxiv/`（仅 arXiv 的 PDF，不与 `papers/` 重复混放）
+- `llm_outputs/arxiv_download_report.csv`（下载报告）
+
+#### B) 运行 Stage 1-3（只处理新增，输出到 llm_outputs/arxiv/）
+
+```bash
+python validate_paper.py --resume --csv papers_arxiv.csv --papers_dir papers_arxiv --out llm_outputs/arxiv/validate.jsonl --inplace
+python screen_cluster.py --resume --csv papers_arxiv.csv --papers_dir papers_arxiv --out llm_outputs/arxiv/screen_cluster.jsonl --only_stage1_match --inplace
+python extract_summary.py --resume --csv papers_arxiv.csv --papers_dir papers_arxiv --stage1_jsonl llm_outputs/arxiv/validate.jsonl --screen_jsonl llm_outputs/arxiv/screen_cluster.jsonl --out llm_outputs/arxiv/extract_summary.jsonl --only_included --require_step1_pass
+python export_step3_to_csv.py --papers_csv papers_arxiv.csv --step3_jsonl llm_outputs/arxiv/extract_summary.jsonl --out_csv llm_outputs/arxiv/step3_export.csv
+```
+
 ### 0) 安装依赖
 
 ```bash
